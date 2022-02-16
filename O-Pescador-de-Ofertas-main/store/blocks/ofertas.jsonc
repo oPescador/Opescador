@@ -1,0 +1,35 @@
+{
+    "store.custom#ofertas": {
+      "blocks": [
+        "rich-text#titulo",
+        "search-result-layout.customQuery#ofertas"
+      ]
+    },
+    "search-result-layout.customQuery#ofertas": {
+      "props": {
+        "querySchema": {
+            "skusFilter": "ALL",
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 20,
+            "map": "productClusterIds",
+            "query": "138"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile"
+      ]
+    },
+
+    "rich-text#titulo":{
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "**Ofertas do Pescador de Ofertas**",
+          "font": "t-heading-1",
+          "blockClass": "titulo-ofertas"
+        }
+      }
+
+}

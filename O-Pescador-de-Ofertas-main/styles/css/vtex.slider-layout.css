@@ -1,0 +1,86 @@
+.sliderLayoutContainer {
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.paginationDotsContainer {
+  margin: 0;
+  bottom: 0;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.slide--shelf {
+  box-sizing: border-box;
+  margin: 30px 5px 10px;
+  overflow: hidden;
+}
+
+.sliderTrackContainer--shelf {
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .slide--shelf:hover {
+    box-shadow: #e5e5e5 0px 0 0 1px;
+    transition: all .4s;
+    border-radius: 10px;
+  }
+  .slide--shelf:hover :global(.vtex-button) {
+    opacity: 1;
+  }
+}
+
+.paginationDot--isActive {
+  background: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--banners) {
+  margin-bottom: 22px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-newsletter)
+ :global(.vtex-rich-text-0-x-paragraph--sub-news) {
+  text-transform: none;
+  font-style: normal;
+  color: #fff;
+  margin: 3px 20px 0 20px;
+  font-size: 20px;
+  padding-left: 70px;
+  font-weight: 500;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--sub-news)::before{
+  top: -48% ​!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-newsletter) {
+  padding: 25px 0;
+}
+
+.sliderTrack--slider-products-banner {
+  gap: 13px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--links-faq){
+  border-top: 1px solid;
+  padding: 20px 0;
+}
+
+.paginationDotsContainer--faq-link {
+  bottom: -15px ;
+}
+
+@media only screen and (max-width: 640px) {
+  .paginationDotsContainer--faq-link {
+    bottom: 10px;
+  }
+}
+

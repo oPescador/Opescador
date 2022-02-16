@@ -1,0 +1,20 @@
+{
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+  "store.custom#informacoes-gerais": {
+    "path": "/informacoes-gerais"
+  },
+  "store.custom#prazo-entrega": {
+    "path": "/prazo-de-entrega"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#trocas-cancelamentos": {
+    "path": "/trocas-cancelamentos"
+  },
+  "store.custom#custom-search": {
+    "path": "/ofertas"
+  }
+}

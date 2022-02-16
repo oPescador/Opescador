@@ -1,0 +1,196 @@
+div.vtex-store-drawer-0-x-opened {
+    background: #fff;
+}
+nav.vtex-menu-2-x-menuContainerNav--custom-drawer {
+    background: #f5f5f5;
+    .vtex-menu-2-x-menuItem--item-mobile {
+        .vtex-menu-2-x-menuItemInnerDiv--item-mobile {
+            padding: 0 15px;
+            .vtex-menu-2-x-styledLinkContent--item-mobile {
+                width: 100% !important;
+                align-items: center;
+            }
+        }
+        .vtex-menu-2-x-submenuAccordion {
+            .vtex-menu-2-x-styledLink {
+                padding: 7px 0;
+                display: block;
+            }
+            .vtex-menu-2-x-menuContainer {
+                > div.vtex-menu-2-x-styledLinkContainer {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.vtex-box-inside {
+    padding: 10px 20px 10px 60px;
+    font-weight: normal;
+    display: block;
+    border: 1px solid transparent;
+    position: relative;
+    &::before {
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url($url-assets+"ico-atendimento.png") no-repeat;
+        background-size: 100% auto;
+        display: block;
+        margin-right: 10px;
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        margin-top: -16px;
+    }
+    &:hover {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #0f62c0;
+    }
+    &:hover {
+        .vtex-atendimento-inside {
+            visibility: visible;
+            opacity: 1;transform:
+            translateY(0);
+            transition-delay: 0s, 0s, 0.3s;
+            transition: all 0.3s ease-in-out 0s;
+        }
+    }
+}
+.vtex-atendimento-inside {
+    position: absolute;
+    z-index: 55;
+    transition: all 0s ease-in-out 0s;
+    transform: translateY(-2em);
+    visibility: hidden;
+    opacity: 0;
+    background: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 0px 2px 6px 0px rgba(160, 160, 160, 0.25);
+    padding: 20px;
+    width: max-content;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 5px;
+    -moz-border-radius-topleft: 0;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    left: 0;
+    top: 46px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            a {
+                font-size: 16px;
+                color: #646464;
+                line-height: 26px;
+                text-decoration: none;
+                strong {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .telefone-n {
+        display: block;
+        line-height: 20px;
+    }
+    .contatos-loja-topo .email-n {
+        display: block;
+        line-height: 20px;
+    }
+    .moldehorario {
+        margin-top: 10px;
+        padding-top: 13px;
+        border-top: 1px solid #e8e8e8;
+        .horarioatendimento {
+            font-size: 14px;
+            font-weight: 700;
+            color: #646464;
+            margin-bottom: 6px;
+        }
+        .linhahorario {
+            font-size: 14px;
+            color: #646464;
+            font-weight: 300;
+            margin: 0;
+        }
+    }
+}
+
+.contatos-loja-topo ul li {
+	margin-bottom: 3px;
+    line-height: 20px;
+}
+
+.vtex-menu-2-x-menuContainerNav--category-menu {
+    .vtex-menu-2-x-submenuWrapper {
+        a {
+            color: #666;
+            text-transform: none;
+            font-weight: normal !important;
+            padding: 7px ​35px 7px 16p;
+        }
+    }
+}
+div.vtex-menu-2-x-submenuContainer--submenu-main {
+    position: static;
+    .vtex-menu-2-x-submenu {
+        justify-content: flex-start;
+        > li {
+            a.vtex-menu-2-x-styledLink {
+                background-color: red;
+            }
+        }
+    }
+    .vtex-menu-2-x-submenuWrapper--submenu-main {
+        position: absolute;
+        top: 0;
+        left: calc(100% - 7px);
+        width: 290px;
+        height: 100%;
+        max-height: 580px;
+        overflow: auto;
+    }
+    ul > .vtex-menu-2-x-styledLinkContainer {
+
+        a {
+            color: #1d77dd;
+            border-bottom: 2px solid #1d77dd;
+            font-weight: bold !important;
+            font-size: 16px;
+            padding: 0 0 2px;
+        }
+    }
+    .vtex-menu-2-x-styledLinkContainer {
+        padding: 7px 35px 7px 26px!important;
+        a {
+            padding: 0;
+            border-radius: 0;
+        }
+    }
+}
+.vtex-menu-2-x-submenu {
+    > .vtex-menu-2-x-menuItem {
+        > .vtex-menu-2-x-styledLinkContainer > a {
+            &::after {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512.002 512.002' style='enable-background:new 0 0 512.002 512.002;' xml:space='preserve'%3E%3Cpath d='M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105 L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795 l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z' fill='%23fff'/%3E%3C/svg%3E%0A");
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                transform: rotate(0);
+                content: '';
+                transition: all .12s linear;
+                position: absolute;
+                top: 11px;
+                right: 25px;
+                filter: brightness(0.3);
+            }
+        }
+    }
+}
+

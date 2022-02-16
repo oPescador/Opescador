@@ -1,0 +1,324 @@
+:global(.vtex-flex-layout-0-x-flexRow--nav-menu) {
+  background-color: #f5f5f5;
+  padding: 5px 0;
+}
+
+:global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0;
+}
+
+:global(.vtex-store-components-3-x-logoImage) {
+  min-width: 150px;
+}
+
+@media(min-width: 1024px){
+  :global(.vtex-store-components-3-x-logoImage) {
+    margin-left: 12px;
+  }
+  .submenu--submenu-mains::-webkit-scrollbar-track, .submenuWrapper--submenu-main::-webkit-scrollbar-track {
+    background-color: rgb(187,187,187);
+  }
+  .submenu--submenu-mains::-webkit-scrollbar-thumb, .submenuWrapper--submenu-main::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+  }
+  .submenu--submenu-mains::-webkit-scrollbar, .submenuWrapper--submenu-main::-webkit-scrollbar {
+    width: 8px;
+  }
+  .submenuWrapper.submenuWrapper--submenu-mains.submenuWrapper--isOpen:hover .submenu--submenu-mains::-webkit-scrollbar, .submenuWrapper.submenuWrapper--submenu-mains.submenuWrapper--isOpen:hover .submenuWrapper--submenu-main::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+.submenuContainer--submenu-main .submenuWrapper--submenu-main .menuContainerNav .menuContainer {
+  padding-bottom: 40px;
+}
+.styledLink--first{
+  background-position: 5px center !important;
+}
+
+.menuContainerNav--category-menu .styledLink {
+  transition: all .3s;
+  color: #1d77dd;
+  font-size: 15px;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  display: block;
+  line-height: 18px;
+  border-radius: 0;
+  margin-right: 2px;
+  margin-left: 0px;
+}
+
+.menuContainer--category-menu{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menuContainer--category-menu .menuItem{
+  width: 100%;
+}
+
+.menuContainerNav--category-menu .styledLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 43px;
+}
+
+.submenu--submenu-standard .menuItem{
+  padding-left: 5px;
+}
+
+.submenu--submenu-standard .menuItem .styledLink{
+  height: 33px;
+  justify-content: flex-start;
+}
+
+.styledLink--main-item{
+  padding-top: 0!important;
+  height: 43px;
+  display: flex!important;
+  align-items: center;
+  padding-bottom: 0px!important;
+}
+
+.submenu--submenu-main .menuItem .styledLink{
+  height: 33px;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.submenu--submenu-main .styledLinkContainer{
+  height: 33px;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.submenu--submenu-main .styledLinkContainer:hover .styledLinkContent{
+  color: #1d77dd;
+}
+
+:global(.vtex-menu-2-x-menuItem--promotion):hover {
+  background: transparent !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--custom-dropdown-submenu-links-item){
+  color: #444;
+  position: relative;
+  font-size: 14px;
+  justify-content: end;
+  font-weight: normal;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--custom-dropdown-submenu-links-item)::before{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512.002 512.002' style='enable-background:new 0 0 512.002 512.002;' xml:space='preserve'%3E%3Cpath d='M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105 L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795 l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z' fill='%23fff'/%3E%3C/svg%3E%0A");
+  width: 8px;
+  height: 8px;
+  content: '';
+  transition: all .12s linear;
+  margin: 5px 10px 0 0;
+  top: 0;
+  filter: brightness(0.5);
+}
+
+.menuContainerNav--category-menu :global(.vtex-menu-2-x-menuItem):hover{
+  background-color: #eeeeee;
+  transition: all .4s;
+  border-radius: 8px 8px 0 0;
+}
+.menuContainerNav--category-menu :global(.vtex-menu-2-x-menuItem--isOpen):hover {
+  border-radius: 0 !important;
+}
+
+.submenuAccordion .styledLink:hover,
+.menuContainerNav--custom-drawer .styledLink:hover {
+  text-shadow: 0 0 7px #fff;
+}
+
+.menuContainerNav--category-menu .styledLink--promotion,
+.submenuAccordion .styledLink--promotion,
+.menuContainerNav--custom-drawer .styledLink--promotion {
+  color: #f5821f;
+}
+
+.menuContainerNav--category-menu .styledLink--promotion{
+  color: #fff;
+  background-color: #f5821f;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid #fff;
+}
+
+.menuContainerNav--category-menu .styledLink--promotion::before{
+  content: '';
+  margin-right: 10px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url("assets/Gif-tag-branco.gif") no-repeat center center;
+  background-size: contain;
+  border-radius: 5px;
+}
+
+.menuContainerNav--category-menu .styledLink--promotion:hover{
+  background-color: #fff!important;
+  color: #f5821f!important;
+  border-color: #f5821f!important;
+}
+
+.menuContainerNav--category-menu .styledLink--promotion:hover::before{
+  background-image: url("assets/Gif-tag-laranja.gif");
+}
+
+.styledLinkContent {
+  white-space: normal;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--faq-home) .styledLinkContent:hover{
+  background-color: #eee;
+  transition: all .4s;
+}
+
+.title-faq{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.accordionIcon {
+  font-size: 22px;
+  color: #666;
+  font-weight: normal;
+}
+
+.submenu--submenu-standard {
+  width: 360px;
+  display: block;
+  padding: 0 25px 10px;
+}
+
+.submenuContainer--submenu-standard {
+  justify-content: flex-start;
+}
+.submenuWrapper--submenu-standard {
+  box-shadow: 0 6px 7px #0005;
+  z-index: 998;
+  background: #fff;
+  border-bottom: 0;
+  border-radius: 0px 10px 10px 10px;
+}
+
+:global(.vtex-menu-102-x-styledLinkContent--custom-dropdown-submenu-links-item)
+ :global(.vtex-menu-2-x-styledLink--custom-dropdown-submenu-links-item) {
+  margin-bottom: 8px;
+  color: #0c1218 !important;
+  font-size: 14px;
+  text-indent: 10px;
+  font-weight: normal;
+  height: auto !important;
+  text-transform: initial;
+}
+
+.submenuContainer--submenu-standard {
+  top: 0;
+  left: 0;
+}
+
+:global(.vtex-menu-2-x-styledLink--custom-dropdown-submenu-links-item) {
+  padding: 5px 0 !important;
+  color: #ddd !important;
+  text-transform: none !important;
+}
+
+:global(.vtex-menu-2-x-styledLink--custom-dropdown-submenu-links-item):hover {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 9px;
+  transition: all .2s;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--beneficios){
+    padding: 12px 0;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--carousel) {
+      border-radius: 10px;
+      margin-top: 15px;
+  }
+
+  .menuContainerNav--custom-drawer .styledLinkContainer {
+    max-width: none;
+    margin-right: 0;
+  }
+
+  .submenuAccordion--header {
+    margin-top: 10px;
+  }
+
+  .menuContainerNav--custom-drawer .menuItem {
+    margin-right: 0 !important;
+    padding: 10px 0;
+  }
+
+  .menuContainerNav--custom-drawer .menuItem--item-mobile :last-child {
+    width: 100%;
+  }
+
+  .menuContainerNav--custom-drawer {
+    width: 100%;
+  }
+  .menuContainerNav--custom-drawer .menuItemInnerDiv {
+    width: 100%;
+  }
+  .menuContainerNav--custom-drawer .menuItemInnerDiv :first-child {
+    width: max-content;
+  }
+
+  .styledLinkContainer--item-mobile {
+    width: 100% !important;
+    position: relative;
+  }
+
+  .accordionIcon {
+    width: max-content;
+    font-size: 24px;
+    font-weight: normal !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menuContainerNav--custom-drawer .styledLinkContainer {
+    justify-content: left;
+  }
+  .menuContainerNav--custom-drawer .menuItem:not(.menuItem--custom-dropdown-submenu-links-item) {
+    background: none;
+    border-top: #ccc 1px solid;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .menuItemInnerDiv--item-mobile,
+  .menuContainerNav--custom-drawer .styledLinkContainer:not(.styledLinkContainer--custom-dropdown-submenu-links-item):not(.styledLinkContainer--item-mobile) {
+    padding-left: 15px;
+  }
+  .styledLinkContainer--item-mobile {
+    justify-content: left;
+  }
+}
+.menuContainerNav .menuContainer--category-menu .styledLink--first::before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 20px;
+  margin-right: 5px;
+  background: url("assets/imgs/ico_menu.png") no-repeat 0 center;
+}
+.menuContainerNav .menuItem--first .submenuContainer .styledLink {
+  position: relative;
+}

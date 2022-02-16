@@ -1,0 +1,207 @@
+
+@media(min-width: 1024px){
+  .flexRowContent--banner-plp{
+    padding: 15px 15px 10px 20px;
+  }
+  
+}
+
+.flexRowContent--product-selling-price{display:block;}
+.flexRowContent--centralizer{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.flexRowContent--bread-not-found{
+  padding-left: 12px;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0.6rem 0.5rem;
+}
+
+.flexRow--main-header{
+  max-width: 1180px;
+  padding: 7px 0;
+  margin: auto;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #1d77dd;
+  color: #fff;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer) {
+  padding: 0;
+  margin: 0;
+}
+.flexCol--productRating {
+  margin-bottom: 3rem;
+  height: auto!important;
+}
+.flexRow--product-main :global(.vtex-product-price-1-x-listPrice) {
+  color: #aaa;
+  margin-bottom: 10px;
+  text-decoration: line-through;
+  font-size: 16px;
+  margin-right:5px;
+}
+.flexRow--product-main :global(.vtex-product-price-1-x-spotPrice) {
+  font-size: 16px;
+  background-size: 32px;
+  background-position: 0;
+  padding-left: 46px;
+  gap: 2px;
+  height: 24px;
+  margin-bottom:10px;
+}
+:global(.vtex-product-price-1-x-installments--wrapperModel-productInstallments)::before {
+  content: '';
+  display:inline-block;
+  vertical-align:middle;
+  position: relative;
+  width: 45px;
+  height: 31px;
+  background: url(https://lojaopescadordeofertas.vtexassets.com/assets/vtex/assets-builder/lojaopescadordeofertas.store/5.6.12/imgs/ico_card___a1cfdbba130434474a65e65b99f6f580.png) no-repeat;
+  background-size: 31px;
+  display:none;
+}
+.flexRowContent--wrapperModel-productInstallments .stretchChildrenWidth{align-items:center;}
+.flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) {
+  max-width: 100%!important;
+  border: none!important;
+  align-items: center;
+  padding-bottom:30px;
+}
+.flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-address-form__postalCode) {
+  display: flex;
+  position: relative;
+}
+.flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-address-form__postalCode)::before {
+  content: 'Calcule o frete';
+  display: flex;
+  position: relative;
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+  padding-left: 45px;
+  align-items: center;
+  background: url(https://lojaopescadordeofertas.vtexassets.com/assets/vtex/assets-builder/lojaopescadordeofertas.store/5.6.12/imgs/ico_ship___3b49c54….png)no-repeat left center;
+  background-size: 32px;
+}
+.flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-address-form__postalCode) :global(.vtex-input-prefix__group) {
+  text-align: center;
+  display: block;
+  position: relative;
+  background: #fff;
+  border: 1px solid #cecece;
+  width: 90%;
+  border-radius: 0!important;
+}
+.flexRowContent--title-search .stretchChildrenWidth:first-child {
+  width: 100%!important;
+}
+.flexRowContent--title-search .stretchChildrenWidth:last-child {
+  width: 0!important;
+}
+.flexRowContent--title-search .stretchChildrenWidth:last-child :global(.vtex-store-components-3-x-imageElement) {
+  position: absolute;
+  top: 8px;
+  left: 30%;
+  max-width: 70%;
+}
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  min-width: 260px;
+  margin-top: 15px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRowContent--shelf-home {
+  padding-bottom: 50px;
+}
+
+@media(max-width: 1024px){
+  .flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-address-form__postalCode) {
+    display: block;
+  }
+  .flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-address-form__postalCode)::before {
+    height:40px;
+  }
+  .flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) {
+    align-items: flex-end;
+  }
+  .flexRow--product-main :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-button){
+    height:40px;
+  }
+  .flexRow--product-main :global(.vtex-product-price-1-x-spotPrice) {
+    padding-left:50px;
+    align-items: flex-end;
+  }
+}

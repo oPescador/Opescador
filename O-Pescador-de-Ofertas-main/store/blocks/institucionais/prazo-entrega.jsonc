@@ -1,0 +1,40 @@
+{
+  "store.custom#prazo-entrega": {
+    "blocks": [
+      "flex-layout.row#term-delivery"
+    ]
+  },
+
+  "flex-layout.row#term-delivery": {
+    "children": [
+      "flex-layout.col#text-term-delivery"
+    ],
+    "props": {
+      "blockClass": "institutional"
+    }
+ },
+
+  "flex-layout.col#text-term-delivery": {
+    "children": [
+      "rich-text#title-term-delivery",
+      "rich-text#term-delivery"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-term-delivery": {
+    "props": {
+      "text": "Prazos de Entrega",
+      "blockClass": "inst-title"
+    }
+  },
+  "rich-text#term-delivery": {
+    "props": {
+      "text": "Todos os pedidos efetuados em nosso site serão enviados de acordo com a forma escolhida pelo cliente, em até 2 dias úteis da confirmação do pagamento.<br><br>O prazo para a entrega varia de acordo com a forma de envio escolhida e não é de nossa responsabilidade, já que a entrega fica a cargo dos Correios ou Transportadora.<br><br>Você receberá o código para rastrear o seu pedido assim que ele for postado<br><br>CÁLCULO DO FRETE:<br><br>O frete é calculado no momento da compra, no carrinho da loja.<br>Na finalização do pedido é preciso informar um CEP válido para entrega do produto, e o sistema vai calcular automaticamente o valor do frete.<br>O resultado deste cálculo é somado ao valor da compra, formando assim, o valor total a ser pago.<br><br>ENTREGA:<br><br>As entregas são realizadas somente após a confirmação do pagamento do seu pedido. E o valor do frete é cotado a partir do peso, medidas e local de entrega.<br><br>IMPORTANTE:<br>O prazo de envio do seu pedido começa após a confirmação de pagamento pela instituição financeira, o que pode levar até 48h.<br>Somente após esta confirmação, o pedido é preparado para envio e esse prazo é de até 48h para envio aos correios.<br><br>Após a postagem do produto, o prazo de entrega será o informado no momento do cálculo de frete.<br>Atrasos nos correios ou nas transportadoras não são de nossa responsabilidade e, caso tenha dúvidas, entre em contato conosco.<br>Os prazos informados são calculados em dias úteis, ou seja, não inclui sábados, domingos e feriados.<br><br>Os correios realizam até três tentativas de entrega no local informado.<br>É indispensável que, no endereço solicitado, tenha uma pessoa autorizada pela compradora, portando documento de identificação para receber a mercadoria e assinar o protocolo.<br><br>IMPORTANTE: Após a finalização do pedido não é possível alterar a forma de entrega, solicitar adiantamento ou prioridade.<br>Todos os prazos de entrega levam em consideração o estoque, a região, o processo de emissão da Nota Fiscal e o tempo de separação do produto.<br><br>SITUAÇÕES EM QUE PODEM OCORRER ATRASO NA ENTREGA:<br><br>Se houverem três tentativas de entrega sem sucesso, o pedido retornará para o centro de distribuição dos correios, e depois, para a nossa Empresa.<br>Para que seja realizado novo envio, será preciso confirmar o endereço e efetuar o pagamento de um novo frete.<br>O prazo para reenvio do produto será o mesmo que foi informado na finalização do pedido e conta a partir da confirmação do endereço e pagamento de novo frete.<br><br>IMPORTANTE:<br>Fatores naturais e adversos, como: Chuvas fortes, acidentes ou greves na região onde o produto deveria ser entregue impossibilitam a chegada da encomenda e isentam a nossa Empresa de responsabilidades.<br><br>Bairros marcados pelos Correios como áreas com restrição de entrega também podem atrasar a entrega de sua compra.Neste caso, o consumidor receberá um comunicado dos Correios para retirar o pedido em um centro de distribuição mais próximo da residência, sem que isso possa ser atribuído como responsabilidade de nossa Empresa.",
+      "blockClass": "inst-about"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+body .vtex-slider-layout-0-x-sliderLayoutContainer {
+    background: none;
+    > div {
+        width: auto;
+        max-width: $page-width;
+        img {
+            max-height: initial !important;
+        }
+    }
+    &.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-full {
+        > div {
+            max-width: 100%;
+            img {
+                width: auto !important;
+            }
+        }
+    }
+}

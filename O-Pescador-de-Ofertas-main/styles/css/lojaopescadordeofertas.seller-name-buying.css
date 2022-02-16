@@ -1,0 +1,14 @@
+.wrapper{
+  margin-bottom: 10px;
+}
+
+.paragraph{
+  color: #444;
+  font-size: 14px;
+}
+
+.highlight{
+  color: #1d77dd;
+  display: inline-block;
+  margin-left: 3px;
+}

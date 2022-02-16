@@ -1,0 +1,145 @@
+{
+  "menu-item#footer-quem-somos": {
+    "props": {
+      "id": "footer-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": true,
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "menu-item#footer-como-ajudar-mobile"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-como-ajudar": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
+      "rich-text#como-ajudar",
+      "menu-item#footer-quem-somos",
+      "menu-item#footer-informacoes-gerais",
+      "menu-item#footer-entregas",
+      "menu-item#politica",
+      "menu-item#footer-trocas"
+    ]
+  },
+  "rich-text#como-ajudar": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "Como podemos ajudar?"
+    }
+  },
+
+  "menu-item#footer-como-ajudar-mobile": {
+    "props": {
+      "id": "footer-mobile-sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Como podemos ajudar?",
+        "text": "Como podemos ajudar?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#politica",
+      "menu-item#footer-trocas",
+      "menu-item#footer-entregas",
+      "menu-item#footer-informacoes-gerais"
+    ]
+  },
+
+  "menu-item#politica": {
+    "props": {
+      "id": "footer-politica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  
+  "menu-item#footer-trocas": {
+    "props": {
+      "id": "footer-trocas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-cancelamentos",
+        "noFollow": false,
+        "tagTitle": "Trocas/Cancelamentos",
+        "text": "Trocas/Cancelamentos"
+      }
+    }
+  },
+
+  "menu-item#footer-entregas": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/prazo-de-entrega",
+        "noFollow": false,
+        "tagTitle": "Prazos de Entrega",
+        "text": "Prazos de Entrega"
+      }
+    }
+  },
+
+  "menu-item#footer-informacoes-gerais": {
+    "props": {
+      "id": "footer-informacoes-gerais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/informacoes-gerais",
+        "noFollow": false,
+        "tagTitle": "Informações Gerais",
+        "text": "Informações Gerais"
+      }
+    }
+  }
+
+}

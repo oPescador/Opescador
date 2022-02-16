@@ -1,0 +1,191 @@
+.productDescriptionTitle {
+  color: #1d77dd;
+  position: relative;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 20px !important;
+  text-transform: uppercase;
+  border-bottom: 1px solid #bbb;
+  padding: 30px 5px 10px;
+  display: block !important;
+}
+
+:global(.vtex-shelf-1-x-title){
+  position: relative;
+}
+
+:global(.vtex-store-link-0-x-link--product-links) {
+  min-width: auto;
+  background-color: #fff;
+  color: #777;
+  padding: 7px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin: 2px 4px;
+  line-height: 14px;
+  text-align: center;
+  border: 1px solid #aaa;
+  display: inline-block;
+  width: 180px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+:global(.vtex-store-link-0-x-link--product-links):hover {
+  background: #333;
+  border-color: #333;
+  color: #ddd;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  line-height: 19px;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--horario)::before {
+  content: "CONTATOS";
+  color: #1d77dd;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  padding-right: 50px;
+  margin: 15px 0 7px;
+  display: inline-block;
+}
+
+.shareSocialButton {
+  margin-right: 12px;
+  filter: grayscale(1);
+}
+
+.shareLabel {
+  font-weight: bold;
+  margin: 0;
+  line-height: 33px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.shareContainer{
+  display: flex;
+}
+
+:global(.vtex-store-components-3-x-shareContainer){
+  margin-top: 15px;
+}
+
+:global(.vtex-product-summary-2-x-clearLink){
+  border: 1px solid transparent;
+  margin: 10px 5px;
+  padding-top: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--section-shelfs) :global(.vtex-product-summary-2-x-clearLink):hover {
+  border-color: #aaa;
+  transition: all .4s;
+  border-radius: 10px;
+}
+
+:global(.vtex-rich-text-0-x-container--shelfTitle) {
+  justify-content: center;
+}
+
+:global(.vtex-store-components-3-x-submit)
+ :global(.vtex-button){
+  font-size: 14px !important;
+  height: 39px !important;
+  border-radius: 5px !important;
+  line-height: 3px;
+ }
+
+@media(max-width: 767px) {
+
+  .productDescriptionTitle{
+    font-size: 18px;
+    padding: 0 0 5px;
+  }
+
+  .productDescriptionText {
+    font-size: 14px;
+  }
+
+  .productNameContainer{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--link) {
+    padding: 0 15px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading-level-2){
+    font-size: 18px;
+    margin: 15px 15px 10px;
+    text-align: center;
+    border: 0;
+    text-transform: uppercase;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--shelf-home) {
+    padding-bottom: 25px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--shelfTitle) {
+      margin-top: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--link)
+   :global(.vtex-rich-text-0-x-paragraph) {
+    padding: 10px 0 35px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  :global(.vtex-rich-text-0-x-strong--title-shelf){
+    font-size: 16px !important;
+  }
+
+  :global(.vtex-shelf-text-01){
+    font-size: 12px !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf){
+    left: -13px;
+    width: 44px;
+    height: 44px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
+    right: -13px;
+    width: 44px;
+    height: 44px;
+  }
+
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-slider) {
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+      padding: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--newsletter) {
+    padding: 10px 15px 30px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--newsletter) :first-child{
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--banners) {
+    margin-bottom: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--banners){
+    margin-bottom: 0;
+  }
+
+}

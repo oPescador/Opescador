@@ -1,0 +1,122 @@
+{
+  
+  "vtex.menu@2.x:menu#faq-home": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "faq-home"
+    },
+    "children": [
+        "rich-text#title-faq",
+        "menu-item#question1",
+        "menu-item#question2",
+        "menu-item#question3",
+        "menu-item#question4"
+    ]
+  },
+
+  "rich-text#title-faq": { 
+    "props":{
+      "text": "PERGUNTAS FREQUENTES",
+      "blockClass": "title-faq"
+    }
+  },
+
+  // PERGUNTA 1
+  "menu-item#question1": {
+    "props": {
+      "itemProps": {
+        "text": "Qual o prazo para a aprovação do pagamento?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#questions"]
+  },
+  "vtex.menu@2.x:submenu.accordion#questions": {
+    "children": ["vtex.menu@2.x:menu#question1"]
+  },
+  "vtex.menu@2.x:menu#question1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [ "rich-text#question1r" ]
+  },
+  "rich-text#question1r":{
+    "props":{
+      "text": "O prazo de aprovação do pagamento varia de acordo com a opção escolhida, no caso dos boletos bancários, por exemplo, a aprovação pode levar até 2 dias úteis."
+    }
+  },
+
+  // PERGUNTA 2
+  "menu-item#question2": {
+    "props": {
+      "itemProps": {
+        "text": "Como efetuar uma compra?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#diferenca"]
+  },
+  "vtex.menu@2.x:submenu.accordion#diferenca": {
+    "children": ["vtex.menu@2.x:menu#question2"]
+  },
+
+  "vtex.menu@2.x:menu#question2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [ "rich-text#question2r" ]
+  },
+  "rich-text#question2r":{
+    "props":{
+      "text": "Para fazer uma compra em nosso site é muito fácil, rápido, e seguro. Temos uma forma bem simples e auto-explicativa de compra.Em caso de dúvidas, basta entrar em contato conosco."
+    }
+  },
+
+  // PERGUNTA 3
+  "menu-item#question3": {
+    "props": {
+      "itemProps": {
+        "text": "Como acompanharei o pedido?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#identificar"]
+  },
+  "vtex.menu@2.x:submenu.accordion#identificar": {
+    "children": ["vtex.menu@2.x:menu#identificar-modelo"]
+  },
+  "vtex.menu@2.x:menu#identificar-modelo": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["rich-text#question3r"]
+  },
+  "rich-text#question3r": { 
+    "props":{
+      "text": "Após a conclusão do pedido você já pode acompanhar o mesmo através da página Entrar ou Cadastrar, que pode ser acessada na parte superior do nosso site."
+    }
+  },
+  
+  // PERGUNTA 4
+  "menu-item#question4": {
+    "props": {
+      "itemProps": {
+        "text": "O produto não está mais disponível, ele pode voltar ao estoque"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#block-accordion4"]
+  },
+  "vtex.menu@2.x:submenu.accordion#block-accordion4": {
+    "children": ["vtex.menu@2.x:menu#accordion4"]
+  },
+  "vtex.menu@2.x:menu#accordion4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["rich-text#question4r"]
+  },
+  "rich-text#question4r": { 
+    "props":{
+      "text": "Alguns modelos não possuem reposição no estoque, pode ser um item limitado ou de final de série. Mas você pode deixar o seu e-mail na página do produto para te avisar assim que o produto estiver de volta."
+    }
+  }
+
+
+}

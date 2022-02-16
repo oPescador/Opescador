@@ -1,0 +1,316 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #333;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: rgb(37, 37, 37);
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.imageElement--deals1 {
+  width: 42px;
+}
+
+.imageElement--img-faq {
+  display: block;
+  height: 100px;
+  background: url(/arquivos/sprite-faq.png) center 25px no-repeat;
+}
+
+.imageElement--img-faq2 {
+  background-position: center -230px;
+}
+.imageElement--img-faq3 {
+  background-position: center -495px;
+}
+.imageElement--img-faq4 {
+  background-position: center -763px;
+}
+.imageElement--img-faq5 {
+  background-position: center -1036px;
+}
+
+:global(.vtex-store-components-13-x-infoCardHeadline--efcinco-middle-card){
+  font-size: 40px;
+}
+
+.infoCardTextContainer--btn-cta-1{
+  max-width: 700px;
+  padding: 0 15px 0 50px;
+  margin-right: auto;
+  line-height: 28px;
+}
+
+.infoCardContainer--btn-cta-1 {
+  margin: 20px 0;
+}
+
+.infoCardImageContainer--btn-cta-1{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.infoCardTextContainer--btn-cta-2{
+  max-width: 720px;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: initial;
+  padding-right: 50px;
+  line-height: 28px;
+}
+
+:global(.vtex-store-components-13-x-infoCardImageContainer--btn-cta-1){
+  text-align: right;
+  margin-right: 50px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button){
+  border-radius: 50px;
+  padding: 12px 10px 10px;
+  background: #222;
+  border: 0;
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button):hover{
+  background: #000;
+  box-shadow: 0 0 10px #000a;
+  transition: all .3s;
+}
+
+:global(.vtex-link) {
+  color: #555;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+:global(.vtex-link):hover{
+  text-decoration: underline;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bandeiras) {
+  height: 110px;
+  align-items: center;
+  display: flex;
+}
+
+:global(.vtex-store-components-13-x-imageElementLink--centralizar){
+  text-align: center;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--vantagens)
+ :global(.vtex-store-components-3-x-imageElementLink):hover{
+  opacity: 1;
+  transform: rotate(-8deg);
+  transition: all .4s;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--vantagens){
+  margin: 0 35px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-2){
+  font-size: 27px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--faq-home){
+  max-width: 680px;
+  margin: 0 auto 0;
+  padding: 0px 15px 0 40px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--faq-home)
+ :global(.vtex-menu-2-x-menuItem){
+  border-bottom: 1px solid #bbb;
+}
+
+.imageElement--carousel{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-ofertas){
+  color: #f99e00;
+  font-size: 30px;
+  margin: 20px 0;
+  border-bottom: 2px solid;
+  width: 75%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--beneficios-img) {
+  width: 40px !important;
+}
+
+@media(max-width: 1024px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--mobile-margin){
+    margin-bottom: 1rem;
+  }
+
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--beneficios){
+    bottom: -9px;
+  }
+    
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    padding: 0 15px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+   :global(.vtex-menu-2-x-submenuAccordion){
+    padding: 0 0 0 3px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+   :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 13px;
+    padding: 0;
+    margin: 5px 0;
+  }
+  
+  :global(.vtex-link){
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-2){
+    font-size: 20px;
+    margin: 0;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button){
+    font-size: 14px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardTextContainer--btn-cta-2){
+    padding: 0 40px 0 15px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardContainer--btn-cta-2) {
+    margin-bottom: 40px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardSubhead--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardSubhead--btn-cta-2) {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--bandeiras) {
+    height: 80px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--footer-row-2) {
+    border-top: 1px dashed #999;
+  }
+
+  :global(.vtex-store-footer-2-x-socialNetworksContainer) {
+    padding: 10px 0;
+    background: #fff;
+    margin: 20px 0 10px;
+  }
+  
+}

@@ -1,0 +1,108 @@
+.cartIcon--minicart {
+  width: 30px;
+  height: 30px;
+}
+
+@media(max-width: 767px){
+  .minicartContainer :global(.vtex-button) {
+    opacity: .9;
+  }
+}
+
+.minicartContainer :global(.vtex-button) {
+  height: 48px;
+  border-radius: 8px;
+}
+
+.minicartContainer :global(.vtex-button):hover {
+  transition: all .4s;
+  background-color: #0f62c0;
+  color: #fff;
+  outline: none;
+}
+
+:global(.vtex-store-components-3-x-imageElement):hover{
+  transition: scale(1.07);
+  transition: all .4s;
+}
+
+.openIconContainer {
+  padding: 0;
+}
+
+.minicartQuantityBadge {
+    background: transparent;
+}
+
+
+.minicartIconContainer--minicart {
+  position: unset;
+}
+
+.minicartQuantityBadge {
+  background: none;
+  right: 18px;
+  top: 16px;
+  font-size: 11px;
+  color: #fff;
+}
+
+.minicartTitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  padding: 0 15px 8px;
+  color: #1d77dd;
+}
+
+:global(.vtex-product-list-0-x-productVariationsContainer) {
+  color: #333;
+  font-size: 13px;
+}
+
+:global(.vtex-product-list-0-x-productName) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer){
+  border-bottom: 1px dashed #ccc;
+  padding: 0;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemPrice){
+  font-weight: bold;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  background: #01ad32;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  font-size: 0px!important;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before{
+  content: "FINALIZAR PEDIDO";
+  font-size: 16px!important;;
+}
+
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph){
+  font-size: 0px;
+}
+
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::before{
+  content: "Seu carrinho está vazio!";
+  font-size: 16px;
+}

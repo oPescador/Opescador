@@ -1,0 +1,341 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      //"flex-layout.row#form",
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      //"flex-layout.row#efcinco",
+      "flex-layout.row#footer-3-desktop",
+      //"link#whatsapp",
+      "flex-layout.row#whatsapp"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "rich-text#desc",
+      "vtex.menu@2.x:menu#faq-home"
+      // "footer-spacer",
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 8,
+      "paddingBottom": 6
+    }
+  },
+
+  "image#whatsapp": {
+    "props": {
+      "src": "assets/svgs/whatsapp.svg",
+      "maxWidth": 30,
+      "maxHeight": 30,
+      "noFollow": true,
+      "openNewTab": true,
+      "title": "Fale Conosco pelo Whatsapp",
+      "alt": "Fale Conosco pelo Whatsapp",
+      "link": {
+        "url": "https://wa.me/",
+        "title": "Fale Conosco pelo Whatsapp"
+      },
+      "blockClass": "whats"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/opescadordeofertas/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/opescadordeofertas/"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/opescadorpesca"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#footer-payments": {
+    "children": [
+      "flex-layout.row#selos",
+      "flex-layout.row#payments"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "width": "45%"
+    }
+  },
+  "flex-layout.row#payments": {
+    "children": [
+      "image#payments"
+    ],
+    "props": {
+      "blockClass": "bandeiras"
+    }
+  },
+  "image#payments": {
+    "props": {
+      "src": "assets/payments.png",
+      "height": "auto",
+      "alt": "American Express, Diners Club, Visa, Master Card, Elo e Hipercard"
+    }
+  },
+  "flex-layout.row#selos": {
+    "props": {
+      "blockClass": "selos"
+    },
+    "children": [
+      "sandbox#ebit",
+      "image#vtexpci",
+      "sandbox#reclame-aqui",
+      "image#ablec"
+    ]
+  },
+  "sandbox#ebit":{
+    "props":{
+      "width": "70px",
+      "height": "95px",
+      "initialContent": "<a id='seloEbit' href='http://www.ebit.com.br/103734' target='_blank' data-noop='redir(this.href);'></a> <script type='text/javascript' id='getSelo' src='https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?103734'> </script>",
+      "allowCookies": true,
+      "blockClass": "sandbox-ebit"
+    }
+  },
+  "sandbox#reclame-aqui":{
+    "props":{
+      "width": "140px",
+      "height": "48px",
+      "initialContent": "<div id='reputation-ra'><script type='text/javascript' id='ra-embed-reputation' src='https://s3.amazonaws.com/raichu-beta/selos/bundle.js' data-id='NzUzMjM6by1wZXNjYWRvci1wZXNjYS1lLWF2ZW50dXJh' data-target='reputation-ra' data-model='2'></script></div>",
+      "allowCookies": true,
+      "blockClass": "sandbox-reclame-aqui"
+    }
+  },
+  "image#vtexpci": {
+    "props": {
+      "src": "assets/imgs/vtex-pci.jpg",
+      "maxWidth": "114px",
+      "maxHeight": "68px",
+      "noFollow": true,
+      "openNewTab": true,
+      "blockClass": "vtexpci",
+      "alt": "VTEX PCI",
+      "title": "VTEX PCI",
+      "link": {
+        "title": "VTEX PCI",
+        "url": "https://secure.vtex.com/?an=opescadordeofertas"
+      }
+    }
+  },
+  "image#e-bit": {
+    "props": {
+      "src": "assets/imgs/ebit.jpg",
+      "maxWidth": "70px",
+      "maxHeight": "95px",
+      "noFollow": true,
+      "openNewTab": true,
+      "title": "Ebit",
+      "alt": "Ebit",
+      "link": {
+        "url": "https://www.ebit.com.br/o-pescador-de-ofertas",
+        "title": "Ebit"
+      }
+    }
+  },
+  "image#reclameaqui": {
+    "props": {
+      "src": "assets/imgs/reclame-aqui.jpg",
+      "width": "175px",
+      "noFollow": true,
+      "openNewTab": true,
+      "title": "Reclame Aqui",
+      "alt": "Reclame Aqui",
+      "link": {
+        "url": "https://www.reclameaqui.com.br/empresa/o-pescador-pesca-e-aventura/",
+        "title": "Reclame Aqui"
+      }
+    }
+  },
+  "image#ablec": {
+    "props": {
+      "src": "assets/imgs/ablec-pescador.png",
+      "width": "100px",
+      "height": "40px",
+      "noFollow": true,
+      "openNewTab": true,
+      "title": "Ablec",
+      "alt": "Ablec",
+      "link": {
+        "url": "https://www.ablec.com.br/portfolio/pescador-de-ofertas/",
+        "title": "Ablec"
+      }
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club",
+        "Cielo"
+      ]
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-2-col",
+      "flex-layout.col#footer-3-col",
+      "flex-layout.col#footer-payments"
+    ],
+    "props": {
+      "marginTop": 7,
+      "paddingTop": 7,
+      "paddingBottom": 5,
+      "blockClass": ["footer-row-2", "between"]
+    }
+  },
+  "flex-layout.col#footer-2-col": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "flex-layout.row#footer-row-2-1",
+      "social-networks"
+    ]
+  },
+  "flex-layout.row#footer-row-2-1": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "colGap": 7
+    },
+    "children": [
+      "rich-text#horario"
+    ]
+  },
+  "flex-layout.col#footer-3-col": {
+    "props": {
+      "horizontalAlign": "left",
+      "width": "25%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-como-ajudar"
+    ]
+  },
+  "rich-text#desc": {
+    "props": {
+      "text": "### O Pescador de Ofertas \n nasceu a partir de um sonho a 13 anos, onde a nossa meta é que você tenha a melhor experiência e prazer em realizar uma compra pela internet. Trabalhamos com as melhores Marcas de nosso segmento, como Wap, Mondial, Oster, Hamilton Beach, dentre outras. Você pode ter certeza: Se temos o produto, temos o melhor preço. **Aqui você está em 1º Lugar**. \n J.D.ZINETTI VARIEDADES ME - CNPJ: 13.699.850/0002-52",
+      "blockClass": "footer-desc"
+    }
+  },
+
+  "rich-text#horario": {
+    "props": {
+      "text": " <a href='tel:+551938054702' class='vtex-telefone' title='Ligue: (19) 3805-4702'>(19) 3805-4702</a><a href='mailto:comercial01@opescadordeofertas.com.br' class='vtex-email' title='Envie um email para: comercial01@opescadordeofertas.com.br'>comercial01@opescadordeofertas.com.br</a> **HORÁRIO DE ATENDIMENTO:** \n De Segunda a Quinta, das **8h às 18h** \n Sexta, das **8h às 17h** \n Exceto finais de semana e feriados.",
+      "blockClass": "horario"
+    }
+  },
+
+  "flex-layout.row#horario": {
+    "children": [
+      "rich-text#horario"
+    ]
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "credits",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "© Todos os direitos reservados. 2021",
+      "blockClass": "footer-info"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      //"flex-layout.row#form",
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
+      //"flex-layout.row#efcinco",
+      "link#whatsapp"
+    ]
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 4,
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile",
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#efcinco": {
+    "props": {
+      "blockClass": "efcinco"
+    },
+    "children": [
+      "image#efcinco"
+    ]
+  },
+  "image#efcinco": {
+    "props": {
+      "src": "assets/imgs/efcinco-desenvolvimento-vtex-io.png",
+      "width": "210px",
+      "height": "auto",
+      "openNewTab": true,
+      "title": "eFcinco - Implantação e Manutenção VTEX",
+      "alt": "eFcinco - Implantação e Manutenção VTEX",
+      "link": {
+        "url": "https://www.efcinco.com.br",
+        "title": "eFcinco - Implantação e Manutenção VTEX"
+      }
+    }
+  },
+
+  "flex-layout.row#whatsapp":{
+    "children":["image#whatsapp"]
+  },
+  "link#whatsapp": {
+    "props": {
+      "href": "https://wa.me/552135943554",
+      "target": "_blank",
+      "label": "Fale Conosco",
+      "blockClass": "whats",
+      "noFollow": true
+    }
+  }
+}

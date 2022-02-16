@@ -1,0 +1,55 @@
+{
+  "store.custom#quem-somos": {
+    "blocks": [
+      "flex-layout.row#quem-somos"
+    ]
+  },
+
+  "flex-layout.row#quem-somos": {
+    "children": [
+      "flex-layout.col#text-quem-somos"
+    ],
+    "props": {
+      "blockClass": "institutional"
+    }
+ },
+
+  "flex-layout.col#text-quem-somos": {
+    "children": [
+      "rich-text#title-quem-somos",
+      "video#quemsomos",
+      "rich-text#quem-somos"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-quem-somos": {
+    "props": {
+      "text":
+      "QUEM SOMOS",
+      "blockClass": "inst-title"
+    }
+  },
+
+  "video#quemsomos": {
+    "props": {
+      "width": "100%",
+      "height": "540px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=u6AX5HvqDqc",
+      "blockClass": "video-youtube"
+    }
+  },
+
+  "rich-text#quem-somos": {
+    "props": {
+      "text": "O Pescador de Ofertas nasceu a partir de um sonho a 13 anos, onde a nossa meta é que você tenha a melhor experiência e prazer em realizar uma compra pela internet.\n Trabalhamos com as melhores Marcas de nosso segmento, como Wap, Mondial, Oster, Hamilton Beach, dentre outras.\n Aqui você encontra eletroportáteis, eletrodomésticos e muito mais para você e sua casa, como celulares, games, informática, ferramentas, utilidades domésticas e cuidados pessoais. <br /><br />Você pode ter certeza: Se temos o produto, temos o melhor preço. <br /><br /> A nossa infraestrutura foi pensada de uma forma que só O Pescador de Ofertas poderia oferecer. \n Todos os processos de pedidos realizados em nosso site são realizados em até 24h. \n Tudo para que você tenha a melhor experiencia de compra e profissionalismo em sua entrega. <br /><br /> Contamos com um planejamento de envios de forma rápida e segura, além de uma filial dos correios integrada com nossa logística. \n Temos profissionais sempre aptos a solucionar o seu problema. <br /><br /> O Pescador de Ofertas - Aqui você é em Primeiro Lugar!",
+      "blockClass": "inst-about"
+    }
+  }
+}

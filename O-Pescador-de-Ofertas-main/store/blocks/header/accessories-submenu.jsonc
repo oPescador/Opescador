@@ -1,0 +1,195 @@
+{
+
+  "vtex.menu@2.x:submenu#accessories-submenu": {
+    "children": [
+      "menu-item#subcategoria-ac-1",
+      "menu-item#subcategoria-ac-2",
+      "menu-item#subcategoria-ac-3",
+      "menu-item#subcategoria-ac-4",
+      "menu-item#subcategoria-ac-5",
+      "menu-item#subcategoria-ac-6",
+      "menu-item#subcategoria-ac-7",
+      "menu-item#subcategoria-ac-8"
+    ],
+    "props": {
+      "blockClass": ["submenu-standard", "submenu-standard-ac"]
+    }
+
+  },
+
+  "menu-item#evoke": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lentes-para-oculos-de-sol/evoke",
+        "noFollow": false,
+        "tagTitle": "Evoke",
+        "text": "Evoke"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#mormaii": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lentes-para-oculos-de-sol/mormaii",
+        "noFollow": false,
+        "tagTitle": "Mormaii",
+        "text": "Mormaii"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#rayban": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lentes-para-oculos-de-sol/ray-ban",
+        "noFollow": false,
+        "tagTitle": "Ray-Ban",
+        "text": "Ray-Ban"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#oakley": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lentes-para-oculos-de-sol/oakley",
+        "noFollow": false,
+        "tagTitle": "Oakley",
+        "text": "Oakley"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-1": {
+    "props": {
+      "id": "accessories-item-ac-1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/bag",
+        "noFollow": false,
+        "tagTitle": "Bag",
+        "text": "Bag"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-2": {
+    "props": {
+      "id": "accessories-item-ac-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/bone",
+        "noFollow": false,
+        "tagTitle": "Boné",
+        "text": "Boné"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },  "menu-item#subcategoria-ac-3": {
+    "props": {
+      "id": "accessories-item-ac-3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/gasket",
+        "noFollow": false,
+        "tagTitle": "Gasket",
+        "text": "Gasket"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-4": {
+    "props": {
+      "id": "accessories-item-ac-4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/t-shock",
+        "noFollow": false,
+        "tagTitle": "T-Schock",
+        "text": "T-Schock"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-5": {
+    "props": {
+      "id": "accessories-item-ac-5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/chaveiro",
+        "noFollow": false,
+        "tagTitle": "Chaveiro",
+        "text": "Chaveiro"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-6": {
+    "props": {
+      "id": "accessories-item-ac-6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/parafusos",
+        "noFollow": false,
+        "tagTitle": "Parafusos",
+        "text": "Parafusos"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-7": {
+    "props": {
+      "id": "accessories-item-ac-7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/borrachas",
+        "noFollow": false,
+        "tagTitle": "Borrachas",
+        "text": "Borrachas"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  },
+  "menu-item#subcategoria-ac-8": {
+    "props": {
+      "id": "accessories-item-ac-8",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/limpa-lente",
+        "noFollow": false,
+        "tagTitle": "Limpa Lente",
+        "text": "Limpa Lente"
+      },
+      "blockClass": "custom-dropdown-submenu-links-item"
+    }
+  }
+}

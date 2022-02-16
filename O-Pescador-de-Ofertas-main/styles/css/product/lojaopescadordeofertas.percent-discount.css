@@ -1,0 +1,30 @@
+.wrap{
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 30px;
+    position: relative;
+    top: -6px;
+    margin-right: 10px;
+    fill: rgb(23, 176, 15);
+}
+
+.value{
+    font-weight: 700;
+    color: rgb(23, 176, 15);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .value{
+        font-size: 13px; 
+    }
+    .icon{
+        width: 25px;
+    }
+}
+
+.span{
+    font-weight: 700;
+}

@@ -1,0 +1,154 @@
+{
+  "flex-layout.row#banner-bottom": {
+    "children": [
+      "flex-layout.col#banner-bottom"
+    ],
+    "props": {
+      "blockClass":["banners"]
+    }
+  },
+  "flex-layout.col#banner-bottom": {
+    "children": ["list-context.image-list#banner-bottom"]
+  },
+  "list-context.image-list#banner-bottom": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "blockClass":["banners", "mb-default"], 
+      "marginBottom": 4,
+      "images": [
+        {
+          "image": "assets/imgs/banner-mid-full.png",
+          "mobileImage": "assets/imgs/banner-mid-full.png",
+          "maxWidth": "1150px"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-slider"
+    }
+  },
+
+  "flex-layout.row#bannerhalf": {
+    "children": [
+      "flex-layout.col#bannerhalf1",
+      "flex-layout.col#bannerhalf2"
+    ],
+    "props": {
+      "blockClass":["banners", "banner-half"], 
+      "marginBottom": 5
+    }
+  },
+
+  "flex-layout.col#bannerhalf1": {
+    "children": [
+      "list-context.image-list#bannerhalf1"
+    ],
+    "props":{
+      "blockClass": "mosaico1",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#bannerhalf2": {
+    "children": [
+      "list-context.image-list#bannerhalf2"
+    ],
+    "props":{
+      "blockClass": "mosaico1",
+      "width": "50%"
+    }
+  },
+  "list-context.image-list#bannerhalf1": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "blockClass":["banners", "mb-default"], 
+      "marginBottom": 4,
+      "images": [
+        {
+          "image": "assets/imgs/banner-mid-half1.png",
+          "mobileImage": "assets/imgs/banner-mid-half1.png",
+          "width": "560px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#bannerhalf2": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "blockClass":["banners", "mb-default"], 
+      "marginBottom": 4,
+      "images": [
+        {
+          "image": "assets/imgs/banner-mid-half2.png",
+          "mobileImage": "assets/imgs/banner-mid-half2.png",
+          "width": "560px"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#bannerhalf-2": {
+    "children": [
+      "flex-layout.col#bannerhalf2-1",
+      "flex-layout.col#bannerhalf2-2"
+    ],
+    "props": {
+      "blockClass":["banners", "banner-half"], 
+      "marginBottom": 5
+    }
+  },
+
+  "flex-layout.col#bannerhalf2-1": {
+    "children": [
+      "list-context.image-list#bannerhalf2-1"
+    ],
+    "props":{
+      "blockClass": "mosaico1",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#bannerhalf2-2": {
+    "children": [
+      "list-context.image-list#bannerhalf2-2"
+    ],
+    "props":{
+      "blockClass": "mosaico1",
+      "width": "50%"
+    }
+  },
+  "list-context.image-list#bannerhalf2-1": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "blockClass":["banners", "mb-default"], 
+      "marginBottom": 4,
+      "images": [
+        {
+          "image": "assets/imgs/banner-mid-half1.png",
+          "mobileImage": "assets/imgs/banner-mid-half1.png",
+          "width": "560px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#bannerhalf2-2": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "blockClass":["banners", "mb-default"], 
+      "marginBottom": 4,
+      "images": [
+        {
+          "image": "assets/imgs/banner-mid-half2.png",
+          "mobileImage": "assets/imgs/banner-mid-half2.png",
+          "width": "560px"
+        }
+      ]
+    }
+  }
+}

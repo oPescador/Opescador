@@ -1,0 +1,192 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#home-main-banner",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#beneficios",
+      "flex-layout.row#bannermosaico",
+      "flex-layout.row#titulocategorias",
+      "flex-layout.row#categoriasdestaque",
+      "rich-text#title1",
+      "flex-layout.row#shelf1",
+      "rich-text#title2",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#bannerhalf",
+      // "flex-layout.row#banner-bottom",
+      "rich-text#title3",
+      "flex-layout.row#shelf3",
+      "flex-layout.row#bannerhalf-2",
+      "rich-text#title4",
+      "flex-layout.row#shelf4",
+      "modal-lgpd"
+    ]
+  },
+
+  "list-context.image-list#home-main-banner": {
+    "children": ["slider-layout#home-main-banner"],
+    "props": {
+      "blockClass": "banner-main",
+      "height": "auto",
+      "images": [
+        {
+          "maxWidth": "100%",
+          "image": "assets/imgs/banner-desktop.jpg",
+          "mobileImage": "assets/imgs/banner_1000.jpg",
+          "link": {
+            "attributeTitle": "O Pescador",
+            "url": "#"
+          }
+        },
+        {
+          "maxWidth": "100%",
+          "image": "assets/imgs/banner-desktop.jpg",
+          "mobileImage": "assets/imgs/banner_1000.jpg",
+          "link": {
+            "attributeTitle": "O Pescador",
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#home-main-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  // VITRINE 1
+  "rich-text#title1": {
+    "props": {
+      "text": "## OFERTAS DA SEMANA",
+      "blockClass": ["ofertas"]
+    }
+  },
+  "flex-layout.row#shelf1": {
+    "props": {
+      "blockClass": ["ofertas"]
+    },
+    "children": ["list-context.product-list#shelf-home1"]
+  },
+  "list-context.product-list#shelf-home1": {
+    "blocks": ["product-summary.shelf#category"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "1"
+    }
+  },
+
+  // VITRINE 2
+  "rich-text#title2": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "props": {
+      "blockClass": "shelf-home"
+    },
+    "children": ["list-context.product-list#shelf-home2"]
+  },
+  "list-context.product-list#shelf-home2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "1"
+    }
+  },
+
+  // VITRINE 3
+  "rich-text#title3": {
+    "props": {
+      "text": "## Produtos mais Vistos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf3": {
+    "props": {
+      "blockClass": "shelf-home"
+    },
+    "children": ["list-context.product-list#shelf-home3"]
+  },
+  "list-context.product-list#shelf-home3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "category": "7"
+    }
+  },
+  // VITRINE 4
+  "rich-text#title4": {
+    "props": {
+      "text": "## Novidades do Pescador de Ofertas",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf4": {
+    "props": {
+      "blockClass": "shelf-home"
+    },
+    "children": ["list-context.product-list#shelf-home4"]
+  },
+  "list-context.product-list#shelf-home4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "category": "1"
+    }
+  },
+
+  "slider-layout#shelf-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

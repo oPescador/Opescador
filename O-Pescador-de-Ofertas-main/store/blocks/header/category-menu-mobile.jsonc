@@ -1,0 +1,662 @@
+{
+  "menu-item#menu-mobile-1": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ar-e-ventilacao",
+        "noFollow": false,
+        "tagTitle": "Ar e Ventilação",
+        "text": "Ar e Ventilação"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-1": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-1": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 107
+    }
+  },
+  "menu-item#menu-mobile-2": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes",
+        "noFollow": false,
+        "tagTitle": "Bebês",
+        "text": "Bebês"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-2": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-2": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 110
+    }
+  },
+  "menu-item#menu-mobile-3": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bombas-de-agua",
+        "noFollow": false,
+        "tagTitle": "Bombas de Água",
+        "text": "Bombas de Água"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-3": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-3": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 78
+    }
+  },
+  "menu-item#menu-mobile-4": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brinquedos",
+        "noFollow": false,
+        "tagTitle": "Brinquedos",
+        "text": "Brinquedos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-4": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-4": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 113
+    }
+  },
+  "menu-item#menu-mobile-5": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Casa e Construção",
+        "text": "Casa e Construção"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-5": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-5"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-5": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 116
+    }
+  },
+  "menu-item#menu-mobile-6": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidados-pessoais",
+        "noFollow": false,
+        "tagTitle": "Cuidados Pessoais",
+        "text": "Cuidados Pessoais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-6": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-6": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 109
+    }
+  },
+  "menu-item#menu-mobile-7": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletrodomesticos",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-7": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-7"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-7": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 6
+    }
+  },
+  "menu-item#menu-mobile-8": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-8",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletroeletronicos",
+        "noFollow": false,
+        "tagTitle": "Eletroeletrônicos",
+        "text": "Eletroeletrônicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-8": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-8"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-8": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 112
+    }
+  },
+  "menu-item#menu-mobile-9": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-9",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletroportateis",
+        "noFollow": false,
+        "tagTitle": "Eletroportáteis",
+        "text": "Eletroportáteis"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-9": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-9"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-9": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 1
+    }
+  },
+  "menu-item#menu-mobile-10": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-10",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/equipamentos-industriais",
+        "noFollow": false,
+        "tagTitle": "Equipamentos Industriais",
+        "text": "Equipamentos Industriais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-10": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-10"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-10": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 111
+    }
+  },
+  "menu-item#menu-mobile-11": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-11",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esporte-e-lazer",
+        "noFollow": false,
+        "tagTitle": "Esporte e Lazer",
+        "text": "Esporte e Lazer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-11"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-11": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-11"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-11": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 108
+    }
+  },
+  "menu-item#menu-mobile-12": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-12",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Ferramentas Elétricas",
+        "text": "Ferramentas Elétricas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-12"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-12": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-12"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-12": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 4
+    }
+  },
+  "menu-item#menu-mobile-13": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-13",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Ferramentas Manuais",
+        "text": "Ferramentas Manuais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-13"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-13": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-13"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-13": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 5
+    }
+  },
+  "menu-item#menu-mobile-14": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-14",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-14"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-14": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-14"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-14": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 114
+    }
+  },
+  "menu-item#menu-mobile-15": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-15",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Jardinagem",
+        "text": "Jardinagem"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-15"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-15": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-15"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-15": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 105
+    }
+  },
+  "menu-item#menu-mobile-16": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-16",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Limpeza",
+        "text": "Limpeza"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-16"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-16": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-16"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-16": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 106
+    }
+  },
+  "menu-item#menu-mobile-17": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-17",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Móveis",
+        "text": "Móveis"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-17"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-17": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-17"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-17": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 115
+    }
+  },
+  "menu-item#menu-mobile-18": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-18",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Smartphones e Acessórios",
+        "text": "Smartphones e Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-18"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-18": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-18"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-18": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 117
+    }
+  },
+  "menu-item#menu-mobile-19": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-19",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Utilidades Domésticas",
+        "text": "Utilidades Domésticas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-19"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-19": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-19"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-19": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 7
+    }
+  },
+  "menu-item#menu-mobile-20": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-menu-mobile-20",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Utilidades Domésticas",
+        "text": "Utilidades Domésticas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-20"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-20": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-20"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-20": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 111
+    }
+  }
+}

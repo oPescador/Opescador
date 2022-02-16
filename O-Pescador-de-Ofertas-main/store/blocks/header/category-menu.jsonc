@@ -1,0 +1,241 @@
+{
+  "vtex.menu@2.x:menu#main-menuz": {
+    "props": {
+      "blockClass": "category-menu"
+    },
+    "children": [
+      "menu-item#main_menu-1"
+    ]
+  },
+  "menu-item#main_menu-1": {
+    "props": {
+      "id": "menu-item-menu-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "main-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      },
+      "iconProps": {
+        "id": "icon-menu",
+        "size": 16,
+        "viewBox": "0 0 21 21",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main_menu-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#main_menu-1": {
+    "children": [
+
+    ]
+  },
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass": "category-menu"
+    },
+    "children": [
+      "menu-item#departamentos",
+      "menu-item#ferramentas",
+      "menu-item#utilidades",
+      "menu-item#eletroportateis",
+      "menu-item#eletrodomesticos",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#departamentos": {
+    "props": {
+      "id": "departamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "text": "Departamentos",
+        "tagTitle": "departamentos",
+        "type": "internal",
+        "noFollow": false,
+        "href": "/"
+      },
+      "blockClass": ["first","main-item"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#departamentos"
+    ]
+  },
+  "menu-item#ferramentas": {
+    "props": {
+      "id": "ferramentas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "text": "Ferramentas",
+        "tagTitle": "Ferramentas",
+        "type": "internal",
+        "noFollow": false,
+        "href": "/Ferramentas-Eletricas"
+      },
+      "blockClass": ["ferramentas","main-item"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menus-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menus-8": {
+    "props": {
+      "blockClass": ["submenu-mains"]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menus-8"
+    ]
+  },
+  "vtex.menu@2.x:menu#menus-8": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 4
+    }
+  },
+
+  "menu-item#eletroportateis": {
+    "props": {
+      "id": "eletroportateis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "text": "Eletroportáteis",
+        "tagTitle": "Eletroportáteis",
+        "type": "internal",
+        "noFollow": false,
+        "href": "/eletroportateis"
+      },
+      "blockClass": ["eletroportateis","main-item"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menus-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menus-9": {
+    "props": {
+      "blockClass": ["submenu-mains"]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menus-9"
+    ]
+  },
+  "vtex.menu@2.x:menu#menus-9": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 1
+    }
+  },
+  "menu-item#eletrodomesticos": {
+    "props": {
+      "id": "eletrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "text": "Eletrodomésticos",
+        "tagTitle": "Eletrodomésticos",
+        "type": "internal",
+        "noFollow": false,
+        "href": "/eletrodomesticos"
+      },
+      "blockClass": ["eletrodomesticos","main-item"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menus-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menus-10": {
+    "props": {
+      "blockClass": ["submenu-mains"]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menus-10"
+    ]
+  },
+  "vtex.menu@2.x:menu#menus-10": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 6
+    }
+  },
+  "menu-item#utilidades": {
+    "props": {
+      "id": "utilidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Utilidades Domésticas",
+        "tagTitle": "Utilidades Domésticas",
+        "href": "/utilidades-domesticas"
+      },
+      "blockClass": ["utilidades","main-item"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menus-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menus-7": {
+    "props": {
+      "blockClass": ["submenu-mains"]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menus-7"
+    ]
+  },
+  "vtex.menu@2.x:menu#menus-7": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 7
+    }
+  },
+  "menu-item#acessorios-mobile": {
+    "props": {
+      "blockClass": "item-mobile",
+      "id": "menu-item-acessorios-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#acessorios-mobile"
+    ]
+  },
+
+  "menu-item#ofertas": {
+    "props": {
+      "id": "ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["promotion","main-item"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  }
+}

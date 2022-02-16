@@ -1,0 +1,53 @@
+{
+  "store.custom#informacoes-gerais": {
+    "blocks": [
+      "flex-layout.row#informacoes-gerais"
+    ]
+  },
+
+  "flex-layout.row#informacoes-gerais": {
+    "children": [
+      "flex-layout.col#text-informacoes-gerais"
+    ],
+    "props": {
+      "blockClass": "institutional"
+    }
+ },
+
+  "flex-layout.col#text-informacoes-gerais": {
+    "children": [
+      "rich-text#title-informacoes-gerais",
+      "rich-text#informacoes-gerais"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-informacoes-gerais": {
+    "props": {
+      "text":"Infomações Gerais",
+      "blockClass": "inst-title"
+    }
+  },
+
+  "video#informacoes-gerais": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=u6AX5HvqDqc",
+      "blockClass": "video-youtube"
+    }
+  },
+
+  "rich-text#informacoes-gerais": {
+    "props": {
+      "text": "Aqui você vai encontrar respostas para as principais dúvidas referentes a nossa loja virtual.<br>Caso não encontre uma resposta para a sua dúvida, entre em contato pelo chat da loja, ou envie-nos um e-mail para sac@opescadordeofertas.com.br.<br><br>ENTREGA:<br><br>Em quanto tempo vou receber o meu pedido?<br>Depende da 'forma de entrega' escolhida e do local de entrega. Enviamos os produtos através dos correios, por PAC ou Sedex ou Transportadoras.<br>Cada modo de entrega possui um prazo específico, informado no momento da consulta de valor do frete.<br><br>Posso rastrear o meu pedido?<br>Claro, após o seu pedido ser enviado pela nossa equipe, em até 48 horas você receberá através do e-mail cadastrado em nossa loja, um código de rastreio para acompanhar o seu pedido.<br><br>PAGAMENTO:<br><br>Quais as formas de pagamento?<br>Os pagamentos em nossa loja são feitos através do sistema Mercado Pago, que é altamente confiável, prático, e seguro.<br>Aceitamos pagamentos através de Boleto bancário à vista e também cartões de crédito com parcelamento em até 12x.<br>Para sua segurança, se houver qualquer divergência de informações cadastrais e de pagamento, nossos consultores entrarão em contato para confirmar os dados antes de aprovar o pedido, e este processo pode levar até 2 (dois) dias úteis.<br><br>O seu cartão de crédito possui um limite de compras estabelecido pelo banco emissor.<br>Para que o pedido seja aprovado, é necessário que haja limite disponível no cartão. Não aceitamos cartões de crédito emitidos no exterior.<br><br>Importante: Mesmo optando em pagar em várias parcelas, lembre-se de que é o valor total da compra que deve estar dentro do limite de crédito disponível em seu cartão.<br><br>Se o limite for ultrapassado, o pedido não será aprovado pela administradora do cartão e, neste caso, você será informado via e-mail.<br>Caso isto ocorra, você pode entrar em contato com banco emissor para solicitar aumento de seu limite, ou refazer o pedido com outro cartão.<br><br>Atenção: Ao pagar com cartão, é comum haver erro de digitação do número do cartão, do código de segurança e data de validade.<br>Quando a administradora de seu cartão detecta qualquer divergência, somos informados imediatamente.<br>Neste caso, para sua segurança, entraremos em contato com você para confirmar os dados e prosseguirmos com seu pedido.<br><br>Qual o prazo para a aprovação do pagamento?<br>O prazo de aprovação do pagamento varia de acordo com a opção escolhida, no caso dos boletos bancários, por exemplo, a aprovação pode levar até 2 dias úteis.<br><br>PEDIDO:<br><br>Como efetuar uma compra?<br>Para fazer uma compra em nosso site é muito fácil, rápido, e seguro. Temos uma forma bem simples e auto-explicativa de compra.<br>Em caso de dúvidas, basta entrar em contato conosco.<br><br>Como acompanharei o pedido?<br>Após a conclusão do pedido você já pode acompanhar o mesmo através da página 'Entrar ou Cadastrar', que pode ser acessada na parte superior do nosso site.<br><br>Posso cancelar um pedido?<br>Sim, para isso solicitamos que você entre em contato conosco o mais rápido possível, para que possamos dar início ao processo da cancelamento antes do envio do seu pedido.<br>Caso o pedido já tenha sido enviado, o mesmo deverá ser recusado na entrega, e assim que recebermos o seu pedido de volta, poderemos dar início ao processo de cancelamento.<br><br>Tenho que criar uma conta no site para efetuar um pedido?<br>Sim, mas é muito simples, e é feito na mesma página onde são solicitados os dados de pagamento.<br>Para isso precisamos de dados simples, como nome, e-mail e CPF da compradora. Os seus dados estarão seguros, e não compartilhamos com outras empresas.<br><br>PRODUTO:<br><br>O produto não está mais disponível, ele pode voltar ao estoque?<br>Alguns modelos não possuem reposição no estoque, pode ser um item limitado ou de final de série.<br>Mas você pode deixar o seu e-mail na página do produto para te avisar assim que o produto estiver de volta.<br><br>Os produtos são exatamente como nas imagens?<br>Sim, todas as fotos dos produtos são sempre reais.<br><br>Como ficar por dentro dos próximos lançamentos?<br>Bem fácil! Nos seguindo nas redes sociais, através do Facebook ou Instagram.",
+      "blockClass": "inst-about"
+    }
+  }
+}

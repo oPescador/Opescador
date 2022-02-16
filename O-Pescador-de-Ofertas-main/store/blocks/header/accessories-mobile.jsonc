@@ -1,0 +1,65 @@
+{
+  "menu-item#ferramentas-mobile": {
+    "props": {
+      "id": "ferramentas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "text": "Ferramentasss",
+        "tagTitle": "Ferramentas",
+        "type": "internal",
+        "noFollow": false,
+        "href": "/Ferramentas-Eletricas"
+      },
+      "blockClass": "ferramentas"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#acessorios-mobile"
+    ]
+  },  
+  "vtex.menu@2.x:submenu.accordion#acessorios-mobile": {
+    "props": {
+      "blockClass": "header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessorios-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios-mobile-accordion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#subcategoria-ac-1",
+      "menu-item#subcategoria-ac-2",
+      "menu-item#subcategoria-ac-3",
+      "menu-item#subcategoria-ac-4",
+      "menu-item#subcategoria-ac-5",
+      "menu-item#subcategoria-ac-6",
+      "menu-item#subcategoria-ac-7",
+      "menu-item#subcategoria-ac-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#marcas-mobile": {
+    "props": {
+      "blockClass": "header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#marcas-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas-mobile-accordion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    },
+    "children": [
+      "menu-item#oakley",
+      "menu-item#rayban",
+      "menu-item#mormaii",
+      "menu-item#evoke"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  box-sizing: border-box;
+  margin: 30px 10px 10px;
+  overflow: hidden;
+}
+
+.sliderTrackContainer--shelf {
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .slide--shelf:hover,
+  :global(.vtex-search-result-3-x-galleryItem--normal):hover :global(.vtex-product-summary-2-x-container){
+    box-shadow: #e5e5e5 0px 0 0 1px;
+    transition: all .4s;
+    border-radius: 10px;
+  }
+  .slide--shelf:hover :global(.vtex-button) {
+    opacity: 1;
+  }
+}
+
+.paginationDot--isActive {
+  background: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--banners) {
+  margin-bottom: 22px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-newsletter)
+ :global(.vtex-rich-text-0-x-paragraph--sub-news) {
+  text-transform: none;
+  font-style: normal;
+  color: #fff;
+  margin: 3px 20px 0 20px;
+  font-size: 20px;
+  padding-left: 70px;
+  font-weight: 500;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--sub-news)::before{
+  top: -48% ​!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-newsletter) {
+  padding: 25px 0;
+}
+
+.sliderTrack--slider-products-banner {
+  gap: 13px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--links-faq){
+  border-top: 1px solid;
+  padding: 20px 0;
+}

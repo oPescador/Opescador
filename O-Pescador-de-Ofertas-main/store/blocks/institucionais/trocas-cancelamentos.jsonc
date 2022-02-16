@@ -1,0 +1,40 @@
+{
+  "store.custom#trocas-cancelamentos": {
+    "blocks": [
+      "flex-layout.row#trocas-cancelamentos"
+    ]
+  },
+
+  "flex-layout.row#trocas-cancelamentos": {
+    "children": [
+      "flex-layout.col#text-trocas-cancelamentos"
+    ],
+    "props": {
+      "blockClass": "institutional"
+    }
+ },
+
+  "flex-layout.col#text-trocas-cancelamentos": {
+    "children": [
+      "rich-text#title-trocas-cancelamentos",
+      "rich-text#trocas-cancelamentos"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-trocas-cancelamentos": {
+    "props": {
+      "text": "Trocas/Cancelamentos",
+      "blockClass": "inst-title"
+    }
+  },
+  "rich-text#trocas-cancelamentos": {
+    "props": {
+      "text": "Nosso principal objetivo é ver nossos amigos e clientes 100% satisfeitos.<br>Sendo assim, estas são as regras gerais para troca ou devolução de produtos adquiridos em nossa loja:<br><br>Você tem até 7 dias corridos após receber o pedido para iniciar o processo de troca sem custo. <br>Para realizar sua troca ou devolução é muito simples!<br><br>- Envie um e-mail para sac@opescadordeofertas.com.br com a sua solicitação, informando o número do seu pedido, CPF e o que deseja.<br>- A nossa equipe dará um retorno em até 72 horas úteis com o procedimento a ser seguido, assim, você já terá tudo o que precisa.<br>- O produto deverá ser encaminhado à nossa Loja na sua embalagem original, acompanhado dos manuais e acessórios, e obrigatoriamente deve estar acompanhado da nota fiscal de venda. Caso não tenha a nota fiscal de venda não aceitaremos a troca ou devolução;<br>- Todos os produtos encaminhados à nossa Loja por motivo de DEFEITO passarão por uma análise para verificação da falha relatada antes da aceitação do processo de troca ou devolução. Salientamos que não serão substituídos produtos que tenham sido danificados por mau uso;<br>- Toda e qualquer solicitação de desistência deve ser feita diretamente à nossa Loja.<br>- O produto deverá ser devolvido sem indícios de uso e sem violação do lacre original do fabricante;<br>- Caso o produto desejado para troca não esteja disponível na nossa Loja no momento da solicitação de troca, o cliente poderá optar por um outro produto ou ressarcimento do valor.<br><br>MOTIVOS PARA TROCA OU DEVOLUÇÃO<br><br>**DESISTÊNCIA POR ARREPENDIMENTO**<br><br>- O prazo para desistência da compra é de até 7 dias corridos, a contar do recebimento do produto;<br>- O produto deverá estar embalado em perfeito estado, livre de quaisquer danos, manchas, sem indícios de uso e acompanhado da Nota Fiscal.<br>- A responsabilidade pelo envio do produto a ser devolvido à nossa Loja é do cliente;<br>- O ressarcimento do valor pago será realizado conforme forma de pagamento original do pedido, sendo:<br>-- Cartão de crédito: Estorno na fatura do cartão de crédito, com prazo entre uma a duas faturas, dependendo da data de vencimento do cartão e do fechamento da fatura pela Administradora do Cartão de Crédito;<br>-- Outros meios que não por cartão de crédito: Ressarcimento em conta corrente, em até 7 (sete) dias úteis, contados a partir do retorno da mercadoria à nossa Loja.<br><br>**DEFEITO DE FABRICAÇÃO**<br><br>- O prazo para reclamação do defeito diretamente à nossa Loja é de até 7 (sete) dias corridos, a contar do recebimento do produto;<br>- O novo produto somente será enviado após recebimento do produto defeituoso pela nossa Loja e análise do defeito relatado;<br>- A nossa Loja se isenta da responsabilidade de trocar qualquer produto que tenha o defeito ocasionado por mau uso;<br>- O prazo para a realização da troca será informado no momento da abertura da solicitação junto a Central de Atendimento nossa Loja.<br>- O prazo poderá variar, de acordo com a região e disponibilidade de estoque do produto a ser trocado;<br>**OUTROS MOTIVOS PARA TROCA OU DEVOLUÇÃO**<br><br>Caso ocorra qualquer irregularidade no ato da entrega, solicitamos que recuse o recebimento da mercadoria e em seguida comunique a Central de Atendimento do nossa Loja.<br>Se o produto for recebido, o prazo para solicitação da devolução por motivo de irregularidade na entrega, será de até 48 horas a contar do recebimento;<br><br>O que deve ser observado no momento do recebimento do pedido:<br>1. Embalagem aberta ou avariada;<br>2. Produto avariado;<br>3. Produto em desacordo com o adquirido no momento da compra.<br><br>Não serão aceitas trocas ocasionadas por mau uso ou danos causados pelo cliente.<br>Nestas condições, o produto será devolvido ao cliente sem aviso prévio.",
+      "blockClass": "inst-about"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+:global(.vtex-store-link-0-x-link--whats) {
+    background: url(assets/svgs/whatsapp.svg) no-repeat center left;
+    display: block;
+    height: 35px;
+    width: 105px;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    padding: 5px 0 4px 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7ad06d;
+    background-color: #fffffff0;
+    background-size: 27px;
+    background-position: 7px center;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 8px #0001;
+}
+
+:global(.vtex-store-link-0-x-link--whats):hover {
+    transform: scale(1.07);
+    transition: all .2s;
+}
+
+:global(.vtex-store-components-3-x-imageElement--vtexpci) {
+    position: relative;
+    left: -14px;
+}
+
+.imageElement{
+  border-radius: 10px;
+}
+
+.imageElementLink--whats{
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 15px;
+    display: flex;
+    width: 125px!important;
+    padding-left: 10px;
+    height: 43px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    background: #fffffff0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0001;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--whats)::after {
+    content: "Fale Conosco";
+    color: #87d57b;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+@media(max-width: 990px){
+  .imageElementLink--whats {
+      bottom: 20px;
+      right: 15px;
+  }
+  .vtex-store-link-0-x-link--whats {
+      text-indent: -999rem;
+      right: 5px;
+      bottom: 30px;
+  }
+}

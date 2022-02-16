@@ -1,0 +1,22 @@
+
+/* Institucional */
+
+.flexRow--institutional {
+  margin: 20px auto;
+  max-width: 95%;
+}
+
+.flexRowContent--institutional {
+  max-width: 990px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--inst-about){
+  font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--erro-400) {
+  font-size: 20px;
+  margin: 70px 0;
+}

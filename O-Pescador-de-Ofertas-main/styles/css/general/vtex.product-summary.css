@@ -1,0 +1,109 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  padding: 5px 0 10px;
+  min-height: auto!important;
+  height: 70px;
+  overflow: hidden;
+}
+
+.brandName {
+  color: #646464;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.container {
+  text-align: start;
+  background: #fff;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+  transition: all .4s;
+}
+
+.image:hover{
+  transform: scale(1.06);
+}
+
+:global(.vtex-address-form__postalCode){
+  padding: 0;
+}
+.container--product-summary :global(.vtex-product-price-1-x-installments--summary) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 15px;
+}
+
+.container--product-summary :global(.vtex-flex-layout-0-x-flexRowContent) {
+  margin-bottom: 5px;
+}
+
+.container--product-summary :global(.vtex-button) {
+  font-weight: 600;
+  font-size: 15px;
+  border: 0;
+  padding: 4px 0;
+  margin-top: 0;
+  border-radius: 8px;
+  line-height: 22px;
+  min-height: unset;
+  transition: all 0.3s ease;
+  margin-bottom: 5px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
+  background: #dddddd61 !important;
+  padding: 13px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container--product-summary :global(.vtex-button) {
+    opacity: 1;
+  }
+  .container--product-summary :global(.vtex-flex-layout-0-x-flexRowContent) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .nameContainer{
+    height: 68px;
+  }
+}
+
+:global(.vtex-product-summary-2-x-element){
+  padding: 0;
+}
+
+
+@media(max-width: 767px) {
+
+  .container--product-summary :global(.vtex-button){
+    font-size: 12px;
+  }
+
+}

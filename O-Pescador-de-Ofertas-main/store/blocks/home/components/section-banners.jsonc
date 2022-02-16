@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#bannermosaico": {
+    // "children": ["flex-layout.col#clasicos", "flex-layout.col#zapatillas"]
+    "children": ["list-context.image-list#products-banner"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "marginTop": 5,
+      "marginBottom": 9,
+      "blockClass": "mobile-margin"
+    }
+  },
+  "list-context.image-list#products-banner": {
+    "children": [
+      "slider-layout#slides-products-banner"
+    ],
+    "props": {
+      "images": [
+        {
+          "height": "auto",
+          "width": "100%",
+          "image": "assets/imgs/ferramentas.jpg",
+          "mobileImage": "assets/imgs/ferramentas.jpg",
+          "link": {
+            "attributeTitle": "O Pescador de Ofertas",
+            "url": "/"
+          }
+        },
+        {
+          "height": "auto",
+          "width": "100%",
+          "image": "assets/imgs/utilidades.jpg",
+          "mobileImage": "assets/imgs/utilidades.jpg",
+          "link": {
+            "attributeTitle": "Acessórios - O Pescador de Ofertas",
+            "url": "/acessorios"
+          }
+        },
+        {
+          "height": "auto",
+          "width": "100%",
+          "image": "assets/imgs/eletroportateis.jpg",
+          "mobileImage": "assets/imgs/eletroportateis.jpg",
+          "link": {
+            "attributeTitle": "Acessórios - O Pescador de Ofertas",
+            "url": "/acessorios"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-products-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "slider-products-banner",
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "mobileOnly"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  padding: 10px 0 0 0px;
+}
+.link {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.homeLink:hover,
+.link:hover {
+  color: #222;
+}
+
+.homeIcon{
+  width: 18px;
+}
+
+:global(.vtex-breadcrumb-1-x-term){
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb-class){
+  margin: 10px 0 0 0px;
+}
+
+@media(max-width: 767px) {
+
+  :global(.vtex-breadcrumb-1-x-term),
+  :global(.vtex-breadcrumb-1-x-link){
+    font-size: 10px;
+    display: inherit;
+  }
+
+  :global(.vtex-breadcrumb-1-x-homeLink){
+    display: none;
+  }
+
+  :global(.vtex-breadcrumb-1-x-container){
+    padding: 0 0 5px;
+  }
+
+}

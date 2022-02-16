@@ -1,0 +1,13 @@
+.product-identifier--productReference {
+  margin-bottom: 10px !important;
+}
+.product-identifier__separator{display:none;}
+:global(.vtex-flex-layout-0-x-flexRow--product-main) .product-identifier .product-identifier__label{font-size:0;}
+:global(.vtex-flex-layout-0-x-flexRow--product-main) .product-identifier .product-identifier__label::before{
+  content: "Código:";
+  font-size: 13px;
+  color: #4e4e4e;
+  font-weight:bold;
+  display:inline-block;
+  margin-right:4px;
+}

@@ -1,0 +1,183 @@
+.vtex-flex-layout-0-x-flexRow--footer-1-row {
+    background-color: $color-primary;
+    padding: 30px 0;
+    @include for-desktop {
+        padding: 50px 0;
+    }
+    .vtex-menu-2-x-styledLinkContent--menu-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #f6ec48;
+        font-weight: bold;
+        @include for-mobile {
+            justify-content: center;
+        }
+    }
+    .vtex-rich-text-0-x-container {
+        padding-left: 23px;
+        @include for-mobile {
+            margin: 0 auto 20px;
+            padding-left: 0;
+            width: 226px;
+        }
+    }
+    .vtex-rich-text-0-x-paragraph {
+        color: #fff;
+        padding-left: 0;
+    }
+    .vtex-menu-2-x-menuContainerNav--margin-top-2 {
+        @include for-desktop {
+            margin-top: 37px;
+        }
+    }
+    .vtex-menu-2-x-menuContainer {
+        a {
+            color: #fff;
+            display: inline-block;
+            vertical-align: middle;
+            &:hover {
+                color: #f6ec48;
+            }
+        }
+        > li {
+            margin-bottom: 10px;
+            @include for-mobile {
+                text-align: center;
+            }
+            
+        }
+    }
+    [class*="ontainer--icon-footer1"] {
+        &::before {
+            content: " ";
+            background: url($url-assets+"ico_footer.png") no-repeat;
+            width: 23px;
+            height: 16px;
+            display: inline-block;
+            background-position: 0 -3px;
+            margin: 2px 10px 0 0;
+            vertical-align: middle;
+        }
+    }
+    .vtex-rich-text-0-x-container--ico-mail::before {
+        background-position: 0 -25px;
+        height: 21px;
+    }
+    .vtex-menu-2-x-styledLinkContainer--ico-orca::before {
+        background-position: 0 -51px;
+        height: 22px;
+    }
+    .vtex-menu-2-x-styledLinkContainer--ico-phone::before {
+        background-position: 0 -75px;
+        height: 23px;
+    }
+    .vtex-menu-2-x-styledLinkContainer--ico-whats::before {
+        background-position: 0 -100px;
+        height: 23px;
+    }
+    .vtex-rich-text-0-x-wrapper--icon-footer1 {
+        &::before {
+            display: none !important;
+        }
+    }
+    .vtex-menu-2-x-menuContainer--social {
+       display: block;
+       @include for-mobile {
+           text-align: center;
+       }       
+    }
+    .vtex-menu-2-x-menuItem--s-face {
+        margin-left: 1.5rem;
+    }
+    .vtex-menu-2-x-menuItem--icon-social {
+        display: inline-block;
+        margin-right: 20px;
+        > div {
+            margin: 0;
+        }
+        a {
+            content: " ";
+            background: url($url-assets+"social_ico.png") no-repeat;
+            width: 22px;
+            height: 35px;
+            display: block;
+            background-position: 0 0px;
+            margin: 0;
+            &.vtex-menu-2-x-styledLink--s-insta {
+                background-position: -41px 0; 
+                width: 34px;
+            }
+            &.vtex-menu-2-x-styledLink--s-blog {
+                background-position: -104px 0; 
+                width: 34px;
+            }
+        }
+        .vtex-menu-2-x-styledLinkContent {
+            display: none;
+        }
+    }
+}
+.vtex-flex-layout-0-x-flexRow--footer-2-row {
+    border-bottom: 2px solid #ecebf1;
+    padding: 13px 0;
+}
+.vtex-flex-layout-0-x-flexColChild--col-pay {
+    @include for-mobile {
+        justify-content: center
+    }
+}
+.vtex-flex-layout-0-x-flexCol--col-pay {
+    @include flexbox(flex, column, wrap, center, center, center);
+    @include for-desktop {
+        @include flexbox(flex, row, wrap, flex-start, center, center);
+    }
+    @include for-mobile {
+        margin-bottom: 20px;
+    }
+    .vtex-rich-text-0-x-paragraph--title-pay {
+        color: $color-primary;
+        text-transform: uppercase;
+        font-family: $font-custom;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 30px;
+        @include for-mobile {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+}
+.vtex-flex-layout-0-x-flexCol--col-secure {
+    @include flexbox(flex, row, wrap, flex-start, center, center);
+    > div {
+        margin: 0 30px;
+    }
+}
+.vtex-flex-layout-0-x-flexRow--footer-3-row {
+    padding: 13px 0;
+}
+.vtex-rich-text-0-x-paragraph--copy-col {
+    font-size: 12px;
+    @include for-mobile {
+        text-align: center;
+        margin-bottom: 20px;
+        br {
+            display: none
+        }
+    }
+
+}
+.vtex-flex-layout-0-x-flexCol--col-implantacao {
+    @include flexbox(flex, row, wrap, center, center, center);
+    @include for-desktop {
+        @include flexbox(flex, row, wrap, flex-start, center, center);
+    }
+    .vtex-rich-text-0-x-paragraph--tit-impl {
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .vtex-flex-layout-0-x-flexColChild--col-implantacao img {
+        margin-right: 40px;
+    }
+}

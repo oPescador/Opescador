@@ -1,0 +1,161 @@
+{
+    "flex-layout.row#beneficios": {
+      "children": [
+        "slider-layout#beneficios"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "beneficios",
+        "paddingTop": 7,
+        "paddingBottom": 6
+      }
+    },
+
+    "slider-layout#beneficios": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 4,
+          "phone": 2
+        },
+        "autoPlay": {
+          "timeout": 3000
+        },
+        "infinite": true,
+        "blockClass": [ "carousel", "beneficios" ],
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "mobileOnly"
+      },
+      "children": [
+        "flex-layout.col#parcelamento",
+        "flex-layout.col#desconto",
+        "flex-layout.col#troca",
+        "flex-layout.col#entregamos",
+        "flex-layout.col#segura"
+      ]
+    },
+
+    "rich-text#beneficios": {
+      "props": {
+        "text": "## Categorias em Destaque",
+        "blockClass": "titulo-categorias"
+      }
+    },
+
+    "flex-layout.col#parcelamento": {
+      "children": ["image#parcelamento", "rich-text#parcelamento"],
+      "props":{
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#desconto": {
+      "children": ["image#desconto", "rich-text#desconto"],
+      "props":{
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#troca": {
+      "children": ["image#troca", "rich-text#troca"],
+      "props":{
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#entregamos": {
+      "children": ["image#entregamos", "rich-text#entregamos"],
+      "props":{
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#segura": {
+      "children": ["image#segura", "rich-text#segura"],
+      "props":{
+        "verticalAlign": "middle"
+      }
+    },
+
+    // parcelamento
+    "image#parcelamento": {
+      "props": {
+        "src": "assets/imgs/icone-pagamento.png",
+        "width": "40px",
+        "height": "alto",
+        "alt": "Parcelamento",
+        "blockClass": "beneficios-img"
+      }
+    },
+    "rich-text#parcelamento": {
+        "props": {
+          "text": "Parcelamos em <span class='vtex-text-beneficios'>Até 6x Sem Juros</span>",
+          "blockClass": "text-beneficios"
+        }
+    },
+
+    // Desconto
+    "image#desconto": {
+      "props": {
+        "src": "assets/imgs/icone-boleto.png",
+        "width": "40px",
+        "height": "alto",
+        "alt": "Desconto",
+        "blockClass": "beneficios-img"
+      }
+    },
+    "rich-text#desconto": {
+        "props": {
+          "text": "Desconto de <span class='vtex-text-beneficios'>5% no Boleto</span>",
+          "blockClass": "text-beneficios"
+        }
+    },
+
+    // Troca Grátis
+    "image#troca": {
+      "props": {
+        "src": "assets/imgs/icone-troca.png",
+        "width": "40px",
+        "height": "alto",
+        "alt": "Troca Grátis",
+        "blockClass": "beneficios-img"
+      }
+    },
+    "rich-text#troca": {
+        "props": {
+          "text": "Em até 7 dias <span class='vtex-text-beneficios'>Troca Grátis</span>",
+          "blockClass": "text-beneficios"
+        }
+    },
+
+    // entregamos
+    "image#entregamos": {
+      "props": {
+        "src": "assets/imgs/icone-entrega.png",
+        "width": "40px",
+        "height": "alto",
+        "alt": "Entregamos",
+        "blockClass": "beneficios-img"
+      }
+    },
+    "rich-text#entregamos": {
+        "props": {
+          "text": "Entregamos em <span class='vtex-text-beneficios'>Todo Brasil</span>",
+          "blockClass": "text-beneficios"
+        }
+    },
+
+    // compra segura
+    "image#segura": {
+      "props": {
+        "src": "assets/imgs/icone-seguro.png",
+        "width": "40px",
+        "height": "alto",
+        "alt": "Compra garantida",
+        "blockClass": "beneficios-img"
+      }
+    },
+    "rich-text#segura": {
+        "props": {
+          "text": "Compra garantida <span class='vtex-text-beneficios'>Loja alto Segura</span>",
+          "blockClass": "text-beneficios"
+        }
+    }
+
+}

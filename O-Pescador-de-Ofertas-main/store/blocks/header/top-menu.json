@@ -1,0 +1,64 @@
+{
+  "flex-layout.row#top-menu": {
+    "props": {
+      "blockClass": "top-bar-row",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "link#help",
+      "link#contact"
+    ]
+  },
+
+  "link#help":{
+    "props": {
+      "href": "tel:+551938054702",
+      "label": "(19) 3805-4702",
+      "target": "_blank",
+      "blockClass": ["top-bar", "help"]
+    }
+  },
+  "link#contact":{
+    "props": {
+      "href": "mailto:comercial01@opescadordeofertas.com.br",
+      "label": "comercial01@opescadordeofertas.com.br",
+      "target": "_blank",
+      "blockClass": ["top-bar", "contact"]
+    }
+  },
+  "flex-layout.row#atendimento-topo": {
+    "props": {
+      "blockClass": "atendimento-topo",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "notification.bar#atendimento"
+    ]
+  },
+  "notification.bar#atendimento": { 
+    "props": {
+      "blockClass": "box-atendimento",
+      "content": "<span class='vtex-box-inside'>Central de <br>Atendimento <div class='vtex-atendimento-inside'><div class='contatos-loja contatos-loja-topo'> <ul> <li class='tel-tel'> <a href='tel:(19) 3805-4702'> <span class='telefone-n'><i class='fas fa-phone' style='color: rgb(29, 119, 221);'></i> (19) 3805-4702 </span></a> </li><li class='tel-mail'> <a href='mailto:comercial01@opescadordeofertas.com.br'> <span class='email-n'><i class='fas fa-envelope' style='color: rgb(29, 119, 221);'></i> comercial01@opescadordeofertas.com.br</span> </a> </li></ul> <ul class='moldehorario'><li class='horarioatendimento'><i class='far fa-clock'></i> Horário de Atendimento</li><li class='linhahorario'>De Seg a Qui, das 8h às 18h</li><li class='linhahorario'>Sex, das 8h às 17h</li><li class='linhahorario'>Exceto Sab, Dom e Feriados</li><li class='linhahorario'></li></ul></div></div></span>" 
+    }
+  },
+  "flex-layout.row#login-cart": {
+    "props": {
+      "blockClass": "login-minicart",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  }
+
+}

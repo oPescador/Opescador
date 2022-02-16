@@ -1,0 +1,40 @@
+{
+  "store.custom#politica-de-privacidade": {
+    "blocks": [
+      "flex-layout.row#politica-de-privacidade"
+    ]
+  },
+
+  "flex-layout.row#politica-de-privacidade": {
+    "children": [
+      "flex-layout.col#text-politica-de-privacidade"
+    ],
+    "props": {
+      "blockClass": "institutional"
+    }
+ },
+
+  "flex-layout.col#text-politica-de-privacidade": {
+    "children": [
+      "rich-text#title-politica-de-privacidade",
+      "rich-text#politica-de-privacidade"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politica-de-privacidade": {
+    "props": {
+      "text": "Política de Privacidade",
+      "blockClass": "inst-title"
+    }
+  },
+  "rich-text#politica-de-privacidade": {
+    "props": {
+      "text": "Os seus dados estão seguros na O Pescador de Ofertas.<br>Os dados pessoais cadastrados em nosso site, não serão utilizados para outros fins que não o de processamento dos pedidos realizados.<br>Não divulgados os seus dados em hipótese alguma.<br><br>Todas as informações que trafegam no site são codificadas e armazenadas em um servidor seguro de acesso exclusivo de nossa Empresa.<br>A proteção é 99,9% confiável.<br><br>Este procedimento não permite que nem nós, e nem terceiros tenham acesso às suas informações pessoais e aos dados de seu cartão de crédito.<br>Aliado a isso, a fim de garantir a sua segurança, não guardamos as informações referentes ao seu cartão de crédito após finalizado o processo de sua compra.<br><br>Tudo isto é feito para que você possa ter ainda mais conforto e tranquilidade ao comprar em nosso site.<br><br>USO DAS INFORMAÇÕES:<br><br>Todas as informações fornecidas por você, serão usadas exclusivamente por nós e mantidas em sigilo, objetivando o aprimoramento da nossa relação com você.<br>Informações pessoais e individuais não serão vendidas ou repassadas por nossa loja a terceiros sob nenhuma hipótese.<br>A nossa Loja jamais enviará arquivos executáveis (.exe) através de email. Caso você receba um arquivo desse tipo não abra e entre imediatamente em contato conosco.<br><br>COOKIES:<br><br>Para personalizar a sua navegação em nosso site, nós podemos vir a instalar 'Cookies' em seu computador, para uma navegação mais completa, fornecendo a você, usuário, uma melhor experiência de navegação.<br><br>ANTI-SPAM:<br><br>Alguns provedores oferecem uma ferramenta AntiSpam para seus usuários, a fim de bloquear e-mails não desejados.<br>Se você utiliza algum tipo de AntiSpam, você poderá não receber os nossos e-mails, entre eles, os e-mails de confirmação de seus pedidos.<br><br>E-MAIL DE OFERTAS E SERVIÇOS:<br>O envio de e-mails será feito apenas com o seu consentimento, e poderá ser desativado a qualquer momento.<br>No entanto, após requisitar o cancelamento, poderemos levar até sete dias para processar sua solicitação.<br>O Pescador de Ofertas é contra o envio de e-mails sem autorização prévia (conhecidos como SPAM).<br>Ao se cadastrar em nosso site, nós temos acesso ao seu e-mail quando você:<br>- Se cadastra para comprar produtos. <br>- Responde a uma pesquisa on-line.<br>- Participa de uma promoção.<br>- Se cadastra para receber as novidades e promoções do site por e-mail.",
+      "blockClass": "inst-about"
+    }
+  }
+}

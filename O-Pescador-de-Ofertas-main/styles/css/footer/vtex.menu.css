@@ -1,0 +1,54 @@
+
+.menuContainerNav--footer-menu .styledLinkContainer {
+  justify-content: left;
+  max-width: unset;
+  margin: 0;
+}
+
+.menuContainerNav--footer-menu .styledLink {
+  color: #333;
+  display: block;
+  line-height: 33px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.menuContainerNav--footer-menu .styledLinkContent:hover {
+  text-decoration: underline;
+  padding-left: 2px;
+  transition: all .3s;
+}
+
+.menuContainerNav--menu-mobile .menuItem {
+  background: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuContainerNav--menu-mobile .styledLinkContainer {
+    margin: 6px 0 8px;
+  }
+  .menuContainerNav--menu-mobile .styledLinkContent {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+
+  .menuContainerNav--menu-mobile .submenuAccordion .styledLinkContainer {
+    max-width: unset;
+    text-align: left;
+  }
+  .menuContainerNav--menu-mobile .submenuAccordion .menuItem {
+    align-items: flex-start;
+  }
+  .menuContainerNav--menu-mobile .submenuAccordion .styledLinkContent {
+    font-weight: normal;
+    color: #bbb;
+    font-size: 12px;
+  }
+
+  .menuContainerNav--menu-mobile .submenuAccordion .styledLinkContainer {
+    margin: 5px 0;
+  }
+}

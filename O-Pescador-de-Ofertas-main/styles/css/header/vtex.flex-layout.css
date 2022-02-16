@@ -1,0 +1,25 @@
+/* Header */
+.flexRowContent--top-bar-row {
+  height: 35px;
+  padding: 0 15px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.flexRow--top-bar-row{
+  background-color: #ed9907;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flexColChild--mobile-links-container {
+    display: flex;
+  }
+
+  .flexColChild--mobile-links-container {
+    padding: 12px 0;
+  }
+
+  .flexColChild--mobile-links-container:last-child {
+    padding-top: 0;
+  }
+}

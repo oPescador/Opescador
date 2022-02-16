@@ -1,0 +1,58 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+:global(.vtex-menu-2-x-menuContainer--faq-home)
+ :global(.vtex-menu-2-x-styledLinkContent){
+  line-height: 42px;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--faq-home)
+ :global(.vtex-rich-text-0-x-paragraph){
+  font-size: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq-text){
+  display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--faq-col):hover {
+  background-color: #eee;
+}
+
+@media(max-width: 1024px){
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+   :global(.vtex-menu-2-x-styledLinkContent){
+    line-height: 17px !important;
+    font-size: 13px;
+    padding: 8px 18px 8px 5px !important;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+   :global(.vtex-menu-2-x-submenuAccordion){
+    padding: 0 0 0 3px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainerNav--faq-home){
+    margin: 0 auto 50px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--faq-col){
+    transform: scale(0.85);
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--links-faq) {
+    border-top: 1px solid;
+    padding: 0;
+  }
+
+
+}
+

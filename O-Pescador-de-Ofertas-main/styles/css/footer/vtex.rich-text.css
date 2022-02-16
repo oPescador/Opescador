@@ -1,0 +1,95 @@
+.container--footer-title {
+  margin: 0;
+  color: #1d77dd;
+  border-bottom: 1px solid;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  max-width: 230px;
+}
+
+.paragraph--footer-text {
+  font-size: 11px;
+  color: #6c6d6f;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.paragraph--footer-info {
+  font-size: 11px;
+  color: #eee;
+  text-align: center;
+  line-height: 34px;
+}
+
+.heading--footer-desc{
+  font-size: 15px;
+  color: #1d77dd;
+  display: inline;
+  font-weight: bold;
+}
+
+.paragraph--footer-desc{
+  font-size: 15px;
+  display: inline;
+  line-height: 24px;
+}
+
+.paragraph--title-faq{
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d77dd;
+  padding-right: 45px;
+  border-bottom: 1px solid;
+}
+
+.wrapper--footer-desc{
+  padding: 30px 20px;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage) {
+  color: #f99e00;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--selos){
+  position: relative;
+  top: 40px;
+  right: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container--footer {
+    margin-top: 0;
+    width: 100%;
+  }
+  .wrapper--footer {
+    font-size: 10px;
+    line-height: 17px;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    width: 100%;
+  }
+  .container--footer-text {
+    display: flex;
+    justify-content: center;
+  }
+  .container--footer-desc {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper--footer {
+    font-size: 9px;
+  }
+}

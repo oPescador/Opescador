@@ -1,0 +1,132 @@
+.vtex-flex-layout-0-x-flexRow--row-vitrine {
+    margin-top: 30px;
+    @include for-desktop {
+        margin-top: 10px;
+    }
+}
+.vtex-slider-layout-0-x-sliderLayoutContainer--shelf {
+    margin-bottom: 20px;
+}
+.vtex-rich-text-0-x-container--shelfTitle { 
+    text-transform: uppercase;
+    font-family: $font-custom;
+    font-weight: bold;
+    font-size: 26px;
+    max-width: $page-width;
+    margin: 0 auto;
+    background: linear-gradient(0deg, transparent 49%, #ecebf1 50%, transparent 51%); 
+    p {
+        background: #ffff;
+        padding: 0 20px;
+        color: $color-primary;
+        position: relative;
+        &::before,
+        &::after {
+            position: absolute;
+            background-color: #f6ec48;
+            height: 4px;
+            width: 70px;
+            content: " ";
+            display: block;
+            top: 50%;
+            margin-top: -2px;
+            left: -70px;
+        }
+        &::after {
+            left: auto;
+            right: -70px;
+        }
+    }
+}
+.vtex-stack-layout-0-x-stackContainer {
+    margin-bottom: 10px;
+}
+.vtex-product-summary-2-x-container {
+    .vtex-product-highlights-2-x-productHighlightWrapper--collection {
+        position: static;
+        display: inline;
+        .vtex-product-highlights-2-x-productHighlightText {
+            background: none;
+            padding: 0;
+            font-weight: bold;
+            color: #4e4e4e;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+    }
+    .vtex-product-summary-2-x-nameContainer {
+        border-bottom: 2px solid #ecebf1;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+    }
+    /*Preco De*/
+    font-family: $font-custom;
+    .vtex-product-summary-2-x-element {
+        display: block;
+        
+    }
+    .vtex-product-price-1-x-listPrice {
+        display: inline-block;
+        + .vtex-flex-layout-0-x-flexRow {
+            display: inline-block;
+             margin-left: 10px;
+            > div {
+                margin: 0;
+            }
+
+        }
+    }
+    .vtex-flex-layout-0-x-flexRow--price-from {
+        text-align: center;
+        font-family: $font-custom;
+    }
+    .vtex-product-price-1-x-listPriceValue {
+        &::before {
+            content: "De: " ;
+        }
+    }
+    .vtex-product-price-1-x-sellingPriceValue--summary {
+        color: $color-primary;
+        font-size: 18px;
+        &::before {
+            content: "Por: " ;
+        }
+    }
+    .vtex-product-summary-2-x-productNameContainer {
+        font-size: 12px;
+        line-height: 18px;
+        
+        
+        @include for-desktop {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .vtex-product-summary-2-x-brandName {
+            font-size: inherit;
+            font-weight: 500;
+            color: #444444; 
+            text-transform: uppercase;
+        }
+    }
+    .vtex-product-price-1-x-savings  {
+        display: none;
+    }
+    .vtex-product-price-1-x-installments--summary {
+        display: block;
+    }
+    .vtex-button {
+        display: none  !important;
+    }
+}
+.vtex-slider-layout-0-x-paginationDotsContainer {
+    .vtex-slider-layout-0-x-paginationDot {
+        background: #fff;
+        width: 18px !important;
+        height: 18px !important;
+        border: 2px solid #A3A3A3;
+    }
+    .vtex-slider-layout-0-x-paginationDot--isActive {
+        background: $color-primary-light;
+    }
+}

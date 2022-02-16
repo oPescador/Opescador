@@ -1,0 +1,50 @@
+
+.searchBarContainer {
+  padding: 0;
+  display: flex !important;
+  align-items: center;
+  max-width: unset !important;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  min-width: 500px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  height: 44px;
+  opacity: .9;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  padding-left: 15px;
+  color: #333;
+  line-height: 15px;
+  font-size: 14px;
+}
+
+.searchBarIcon--search{
+  padding: 0;
+}
+
+.searchBarIcon--mobile--search{
+  padding: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    min-width: unset;
+    margin: 0 5px 15px;
+    height: 38px;
+  }
+}
+
+
+.notificationBarContainer--box-atendimento{
+  background: none !important;
+  text-decoration: none !important;;
+}
+.notificationBarContainer--box-atendimento :global(.vtex-box-inside) {
+  color: #fff;
+  line-height: 16px;
+  font-size: 13px;
+}

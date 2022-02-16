@@ -1,0 +1,23 @@
+{
+  "shelf.relatedProducts": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "recommendation": "buy",
+      "productList": {
+        "itemsPerPage": 4,
+        "gap": "ph3",
+        "showTitle": "true",
+        "titleText": "Quem comprou, comprou também"
+      }
+    }
+  },
+  
+  "flex-layout.row#product-page-shelf": {
+    "props": {
+      "blockClass": ["relacionados"]
+    },
+    "children": ["shelf.relatedProducts"]
+  }
+}

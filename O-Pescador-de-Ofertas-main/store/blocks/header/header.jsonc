@@ -1,0 +1,246 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //"modal-lgpd",
+      "flex-layout.row#banner-tipbar",
+      "sticky-layout#2-desktop",
+      "flex-layout.row#category-menu"
+    ]
+  },
+  "flex-layout.row#banner-tipbar":{
+    "children":[
+      "image#pitbar"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "image#pitbar":{
+    "props": {
+      "src": "assets/faixa-branco-ame.png",
+      "blockClass": "img-pitbar",
+      "maxHeight": 30
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#1-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.row#atendimento-topo",
+      "flex-layout.row#login-cart"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busque seus produtos",
+      "displayMode": "clear-button"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.row#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["nav-menu","centralizer"],
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "alt": "O Pescador de Ofertas",
+      "href": "/",
+      "url": "assets/imgs/logo-pescador-white.svg",
+      "width": "220",
+      "height": "auto",
+      "attributeTitle": "O Pescador de Ofertas"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "alt": "O Pescador de Ofertas",
+      "href": "/",
+      "url": "assets/imgs/logo-pescador-white.svg",
+      "width": "150",
+      "height": "auto",
+      "attributeTitle": "O Pescador de Ofertas"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      //"modal-lgpd",
+      "header-row#1-mobile",
+      "header-row#2-mobile"
+    ],
+    "props": {
+      "blockClass": "mobile-header"
+    }
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar#mobile"
+    ],
+    "props": {
+      "sticky": false,
+      "blockClass": [
+        "mobile-search"
+      ]
+    }
+  },
+  "drawer": {
+    "props": {
+      "maxWidth": "311px"
+    },
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "search-bar#mobile": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "mobile",
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busque seus produtos",
+      "displayMode": "clear-button"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "flex-layout.row#drawer-bottom": {
+    "children": [
+      "flex-layout.col#drawer-bottom-links"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "drawer-bottom-content"
+    }
+  },
+  "flex-layout.col#drawer-bottom-links": {
+    "children": [
+      "login#mobile"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "mobile-links-container"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#menu-mobile-1",
+      "menu-item#menu-mobile-2",
+      "menu-item#menu-mobile-3",
+      "menu-item#menu-mobile-4",
+      "menu-item#menu-mobile-5",
+      "menu-item#menu-mobile-6",
+      "menu-item#menu-mobile-7",
+      "menu-item#menu-mobile-8",
+      "menu-item#menu-mobile-9",
+      "menu-item#menu-mobile-10",
+      "menu-item#menu-mobile-11",
+      "menu-item#menu-mobile-12",
+      "menu-item#menu-mobile-13",
+      "menu-item#menu-mobile-14",
+      "menu-item#menu-mobile-15",
+      "menu-item#menu-mobile-16",
+      "menu-item#menu-mobile-17",
+      "menu-item#menu-mobile-18",
+      "menu-item#menu-mobile-19",
+      "flex-layout.row#drawer-bottom"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "custom-drawer"
+    }
+  },
+  "login": {
+    "props": {
+      "blockClass": "login",
+      "iconLabel": "Olá faça Login ou Cadastre-se",
+      "optionsTitle": "Escolha uma opção para entrar",
+      "accessCodeTitle": "Receba o código de acesso pelo e-mail",
+      "emailAndPasswordTitle": "Login com email e senha",
+      "providerPasswordButtonLabel": "Entre com e-mail",
+      "emailPlaceholder": "Ex: exemplo@exemplo.com.br",
+      "passwordPlaceholder": "Sua senha"
+    }
+  },
+  "login#mobile": {
+    //https://github.com/vtex-apps/login/blob/master/docs/README.md
+    "props": {
+      "mirrorTooltipToRight": true,
+      "iconLabel": "Minha Conta",
+      "blockClass": "mobile",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Receber código de acesso por e-mail:",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "babm"
+    }
+  }
+}

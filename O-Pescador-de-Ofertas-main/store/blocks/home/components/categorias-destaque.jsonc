@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#categoriasdestaque": {
+    "children": [
+      "list-context.image-list#categories-main-banner"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "categoriasdestaque",
+      "paddingTop": 6,
+      "paddingBottom": 8
+    }
+  },
+
+  "list-context.image-list#categories-main-banner": {
+    "children": ["slider-layout#categories-images"],
+    "props": {
+      "blockClass": "banner-main",
+      "height": "auto",
+      "images": [
+        {
+          "src": "assets/imgs/ferramentas.png",
+          "link": {
+            "url": "#",
+            "noFollow": true,
+            "openNewTab": true
+          },
+          "width": "100%",
+          "maxWidth": "180px",
+          "title": "Ferramentas",
+          "alt": "Ferramentas"
+        }
+      ]
+    },
+    "title": "Lista de Parceiros"
+  },
+  "slider-layout#categories-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "flex-layout.row#titulocategorias": {
+    "props": {
+      "blockClass": "titulo-categorias"
+    },
+    "children":["rich-text#categoriasdestaque"]
+  },
+  "rich-text#categoriasdestaque": {
+    "props": {
+      "text": "## Categorias em Destaque",
+      "blockClass": "titulo-categorias"
+    }
+  }
+
+}

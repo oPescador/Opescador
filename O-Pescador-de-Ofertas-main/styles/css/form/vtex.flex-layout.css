@@ -1,0 +1,154 @@
+.flexRow--newsletter {
+  background: #eee;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.flexColChild--newsletter :first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 22px;
+  flex: .9;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--form-title){
+  font-size: 20px;
+}
+
+.flexColChild--newsletter :global(.vtex-input__label) {
+  display: none;
+}
+
+.flexColChild--newsletter :global(.vtex-input) {
+  max-width: 250px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.flexColChild--newsletter :global(.vtex-input-prefix__group) {
+  height: 50px;
+  border: 0;
+}
+
+.flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) :global(.vtex-button) {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  align-items: center !important;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) :global(.vtex-button):hover{
+  box-shadow: 0 0 12px #fff7;
+  transition: all 0.3s;
+}
+
+.flexColChild--newsletter :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-size: 13px;
+  color: #000;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1320px) {
+  .flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  
+  .flexColChild--newsletter :first-child {
+    flex-direction: column;
+    font-size: 18px;
+  }
+  .flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) {
+    margin-left: 0;
+  }
+
+  .flexColChild--newsletter :global(.vtex-input) {
+    max-width: 500px;
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .flexColChild--newsletter :global(.vtex-input-prefix__group) {
+    border: 1px solid #ddd;
+  }
+
+  .flexColChild--newsletter :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    background: #f5f5f5;
+    height: 45px
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals)
+ :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
+  background-color: transparent;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--selos)
+ :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  display: block;
+  text-align: center;
+}
+.flexRowContent--selos {
+  align-items: center;
+}
+@media(max-width: 767px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--deals){
+    padding: 30px 0;
+  }
+
+  .flexColChild--newsletter :global(.vtex-input-prefix__group) {
+    border: 0;
+  }
+
+  .flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) {
+    margin-top: 0;
+  }
+
+  .flexColChild--newsletter :global(.vtex-input) {
+    margin-bottom: 10px;
+  }
+
+  .flexColChild--newsletter :global(.vtex-store-form-0-x-formSubmitContainer) :global(.vtex-button) {
+    width: 240px;
+    padding: 7px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--menu-mobile)
+   :global(.vtex-menu-2-x-menuItem){
+    line-height: 25px;
+    padding: 1px 0;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--selos) {
+      display: flex;
+      align-items: center;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-info) {
+    display: none;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--payment-methods) {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--payment-methods) {
+    border-top: 1px dashed #999;
+    padding-top: 30px;
+  }
+
+  :global(.vtex-product-summary-2-x-clearLink){
+    margin: 0 5px;
+  }
+
+}

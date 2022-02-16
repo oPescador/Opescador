@@ -1,0 +1,629 @@
+.imageElement{
+  border-radius: 10px;
+}
+
+.imageElementLink--whats{
+  position: fixed;
+  z-index: 999;
+  bottom: 30px;
+  right: 15px;
+  display: flex;
+  width: 125px!important;
+  padding-left: 10px;
+  height: 43px;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fffffff0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0001;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--whats)::after {
+  content: "Fale Conosco";
+  color: #87d57b;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+
+@media(max-width: 990px){
+.imageElementLink--whats {
+    bottom: 20px;
+    right: 15px;
+}
+.vtex-store-link-0-x-link--whats {
+    text-indent: -999rem;
+    right: 5px;
+    bottom: 30px;
+}
+}
+
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #333;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: rgb(37, 37, 37);
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.imageElement--deals1 {
+  width: 42px;
+}
+
+.imageElement--img-faq {
+  display: block;
+  height: 100px;
+  background: url(/arquivos/sprite-faq.png) center 25px no-repeat;
+}
+
+.imageElement--img-faq2 {
+  background-position: center -230px;
+}
+.imageElement--img-faq3 {
+  background-position: center -495px;
+}
+.imageElement--img-faq4 {
+  background-position: center -763px;
+}
+.imageElement--img-faq5 {
+  background-position: center -1036px;
+}
+
+:global(.vtex-store-components-13-x-infoCardHeadline--efcinco-middle-card){
+  font-size: 40px;
+}
+
+.infoCardTextContainer--btn-cta-1{
+  max-width: 700px;
+  padding: 0 15px 0 50px;
+  margin-right: auto;
+  line-height: 28px;
+}
+
+.infoCardContainer--btn-cta-1 {
+  margin: 20px 0;
+}
+
+.infoCardImageContainer--btn-cta-1{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.infoCardTextContainer--btn-cta-2{
+  max-width: 720px;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: initial;
+  padding-right: 50px;
+  line-height: 28px;
+}
+
+:global(.vtex-store-components-13-x-infoCardImageContainer--btn-cta-1){
+  text-align: right;
+  margin-right: 50px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button){
+  border-radius: 50px;
+  padding: 12px 10px 10px;
+  background: #222;
+  border: 0;
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button):hover{
+  background: #000;
+  box-shadow: 0 0 10px #000a;
+  transition: all .3s;
+}
+
+:global(.vtex-link) {
+  color: #555;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+:global(.vtex-link):hover{
+  text-decoration: underline;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bandeiras) {
+  height: 110px;
+  align-items: center;
+  display: flex;
+}
+
+:global(.vtex-store-components-13-x-imageElementLink--centralizar){
+  text-align: center;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--vantagens)
+  :global(.vtex-store-components-3-x-imageElementLink):hover{
+  opacity: 1;
+  transform: rotate(-8deg);
+  transition: all .4s;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--vantagens){
+  margin: 0 35px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-2){
+  font-size: 27px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--faq-home){
+  max-width: 680px;
+  margin: 0 auto 0;
+  padding: 0px 15px 0 40px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--faq-home)
+  :global(.vtex-menu-2-x-menuItem){
+  border-bottom: 1px solid #bbb;
+}
+
+.imageElement--carousel{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-ofertas){
+  color: #f99e00;
+  font-size: 30px;
+  margin: 20px 0;
+  border-bottom: 2px solid;
+  width: 75%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--beneficios-img) {
+  width: 40px !important;
+}
+
+@media(max-width: 1024px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--mobile-margin){
+    margin-bottom: 1rem;
+  }
+
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--beneficios){
+    bottom: -9px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    padding: 0 15px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+    :global(.vtex-menu-2-x-submenuAccordion){
+    padding: 0 0 0 3px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--faq-home)
+    :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 13px;
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  :global(.vtex-link){
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardHeadline--btn-cta-2){
+    font-size: 20px;
+    margin: 0;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardCallActionContainer) :global(.vtex-button){
+    font-size: 14px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardTextContainer--btn-cta-2){
+    padding: 0 40px 0 15px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardContainer--btn-cta-2) {
+    margin-bottom: 40px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardSubhead--btn-cta-1),
+  :global(.vtex-store-components-3-x-infoCardSubhead--btn-cta-2) {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--bandeiras) {
+    height: 80px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--footer-row-2) {
+    border-top: 1px dashed #999;
+  }
+
+  :global(.vtex-store-footer-2-x-socialNetworksContainer) {
+    padding: 10px 0;
+    background: #fff;
+    margin: 20px 0 10px;
+  }
+
+}
+
+
+.searchBarContainer {
+  padding: 0;
+  display: flex !important;
+  align-items: center;
+  max-width: unset !important;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  min-width: 500px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  height: 44px;
+  opacity: .9;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  padding-left: 15px;
+  color: #333;
+  line-height: 15px;
+  font-size: 14px;
+}
+
+.searchBarIcon--search{
+  padding: 0;
+}
+
+.searchBarIcon--mobile--search{
+  padding: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    min-width: unset;
+    margin: 0 5px 15px;
+    height: 38px;
+  }
+}
+
+
+.notificationBarContainer--box-atendimento{
+  background: none !important;
+  text-decoration: none !important;;
+}
+.notificationBarContainer--box-atendimento :global(.vtex-box-inside) {
+  color: #fff;
+  line-height: 16px;
+  font-size: 13px;
+}
+
+.productDescriptionTitle {
+  color: #1d77dd;
+  position: relative;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 20px !important;
+  text-transform: uppercase;
+  border-bottom: 1px solid #bbb;
+  padding: 30px 5px 10px;
+  display: block !important;
+}
+
+:global(.vtex-shelf-1-x-title){
+  position: relative;
+}
+
+:global(.vtex-store-link-0-x-link--product-links) {
+  min-width: auto;
+  background-color: #fff;
+  color: #777;
+  padding: 7px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin: 2px 4px;
+  line-height: 14px;
+  text-align: center;
+  border: 1px solid #aaa;
+  display: inline-block;
+  width: 180px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+:global(.vtex-store-link-0-x-link--product-links):hover {
+  background: #333;
+  border-color: #333;
+  color: #ddd;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  line-height: 19px;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--horario)::before {
+  content: "CONTATOS";
+  color: #1d77dd;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  padding-right: 50px;
+  margin: 15px 0 7px;
+  display: inline-block;
+}
+
+.shareSocialButton {
+  margin-right: 12px;
+  filter: grayscale(1);
+}
+
+.shareLabel {
+  font-weight: bold;
+  margin: 0;
+  line-height: 33px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+
+.shareContainer{
+  display: flex;
+}
+
+:global(.vtex-store-components-3-x-shareContainer){
+  margin-top: 15px;
+}
+
+:global(.vtex-product-summary-2-x-clearLink){
+  border: 1px solid transparent;
+  margin: 10px 5px;
+  padding-top: 5px;
+}
+
+@media(min-width: 1024px){
+  :global(.vtex-search-result-3-x-galleryItem--normal):hover
+  :global(.vtex-product-summary-2-x-clearLink){
+    border-color: transparent;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--section-shelfs) :global(.vtex-product-summary-2-x-clearLink):hover {
+  border-color: #aaa;
+  transition: all .4s;
+  border-radius: 10px;
+}
+
+:global(.vtex-rich-text-0-x-container--shelfTitle) {
+  justify-content: center;
+}
+
+:global(.vtex-store-components-3-x-submit)
+ :global(.vtex-button){
+  font-size: 14px !important;
+  height: 39px !important;
+  border-radius: 5px !important;
+  line-height: 3px;
+ }
+ .imageElementLink--carousel {
+  display: block;
+  width: 100%;
+  margin: 0 1px;
+}
+@media(max-width: 767px) {
+  :global(.vtex-flex-layout-0-x-flexRow--product-main) .productBrand {
+    text-align: center;
+    font-size: 16px !important;
+    line-height: initial;
+  }
+  .productDescriptionTitle{
+    font-size: 18px;
+    padding: 0 0 5px;
+  }
+
+  .productDescriptionText {
+    font-size: 14px;
+  }
+
+  .productNameContainer{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--link) {
+    padding: 0 15px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading-level-2){
+    font-size: 18px;
+    margin: 15px 15px 10px;
+    text-align: center;
+    border: 0;
+    text-transform: uppercase;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--shelf-home) {
+    padding-bottom: 25px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--shelfTitle) {
+      margin-top: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--link)
+   :global(.vtex-rich-text-0-x-paragraph) {
+    padding: 10px 0 35px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  :global(.vtex-rich-text-0-x-strong--title-shelf){
+    font-size: 16px !important;
+  }
+
+  :global(.vtex-shelf-text-01){
+    font-size: 12px !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf){
+    left: -13px;
+    width: 44px;
+    height: 44px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
+    right: -13px;
+    width: 44px;
+    height: 44px;
+  }
+
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-slider) {
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+      padding: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--newsletter) {
+    padding: 10px 15px 30px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--newsletter) :first-child{
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--banners) {
+    margin-bottom: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--banners){
+    margin-bottom: 0;
+  }
+  .imageElementLink--carousel {
+    margin: 0 1px;
+  }
+
+}
+
+.swiper-pagination{
+  display: none;
+}
+
+.imageElementLink--img-pitbar{
+  text-align: center;
+}

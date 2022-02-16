@@ -1,0 +1,109 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+
+  "store.not-found#product": {
+    "blocks": ["flex-layout.row#row-not-found"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#row-not-found"]
+  },
+
+  "flex-layout.row#row-not-found":{
+    "children": [
+      "rich-text#not-found"
+    ],
+    "props":{
+      "blockClass": ["centralizer","row-not-found"]
+    }
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Esta página não existe mais ou foi desabilitada.",
+      "font": "t-heading-3",
+      "blockClass": "erro-400"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#promotion": {
+    "props": {
+      "type": "promotion"
+    },
+    "children": ["product-highlight-wrapper#2"]
+  },
+  "vtex.product-highlights@2.x:product-highlights#teaser": {
+    "props": {
+      "type": "teaser"
+    },
+    "children": ["product-highlight-wrapper#3"]
+  },
+  "product-highlight-wrapper#1": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text#1"]
+  },
+  "product-highlight-text#1": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-highlight-wrapper#2": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text#2"]
+  },
+  "product-highlight-text#2": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-highlight-wrapper#3": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text#3"]
+  },
+  "product-highlight-text#3": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}

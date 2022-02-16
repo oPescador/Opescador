@@ -1,0 +1,100 @@
+.flexRow--payment-methods {
+  padding-left: 20px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout){
+  background-color: #eee;
+  margin-top: 30px;
+}
+
+:global(.vtex-telefone) {
+  display: table;
+  border-radius: 10px;
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 30px 6px 33px;
+  position: relative;
+}
+:global(.vtex-telefone)::before {
+  content: " ";
+  display: block;
+  background: url("assets/imgs/ico_phone.png") no-repeat;
+  width: 22px;
+  height: 25px;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 25%;
+}
+:global(.vtex-email) {
+  display: table;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #555;
+  text-decoration: none;
+  padding: 9px 30px 10px 35px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 13px;
+}
+:global(.vtex-email)::before {
+  content: " ";
+  display: block;
+  background: url("assets/imgs/ico_email.png") no-repeat;
+  width: 24px;
+  height: 18px;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.flexRow--credits {
+  background: #ed9907;
+  text-transform: uppercase;
+}
+
+.flexRow--efcinco {
+  background-color: #0f498a;
+  padding: 15px 10px 10px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flexRowContent--payment-methods {
+    flex-direction: column;
+  }
+  .flexRowContent--footer-row-2 {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .flexRow--payment-methods {
+    padding: 0;
+  }
+  .flexCol--payment-methods {
+    padding: 0;
+  }
+  .flexRow--footer-mobile {
+    padding: 0 15px;
+  }
+  .flexRow--footer-mobile :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+  .flexRow--footer-links {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .flexRowContent--footer-row-2 {
+    padding: 25px 15px 0;
+  }
+}
+.flexRowContent--footer-row-2,
+.flexRowContent--menu-row  {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+

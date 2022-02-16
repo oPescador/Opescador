@@ -1,0 +1,364 @@
+%prod_code {
+    .vtex-product-identifier-0-x-product-identifier {
+        transform: translateY(0);
+        display: block;
+        margin: 0;
+        @include for-desktop {
+            transform: translateY(-8px);
+            margin: 0 0 -15px;
+        }
+        .vtex-product-identifier-0-x-product-identifier__label {
+            font-size: 13px;
+            color: #4e4e4e;
+            &::before {
+                content: "Cód.";
+            }
+        }
+        .vtex-product-identifier-0-x-product-identifier__value {
+            color: #4e4e4e;
+            font-size: 13px;
+        }
+    }
+}
+
+%prod_name {
+    .vtex-store-components-3-x-productBrand {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        color: #4e4e4e;
+        > div {
+            margin: 0;
+        }
+    }
+}
+
+%prod_buy-button {
+    .vtex-flex-layout-0-x-flexColChild--buy-col {
+        .vtex-product-quantity-1-x-quantitySelectorTitle {
+            display: none;
+        }
+        .vtex-product-quantity-1-x-quantitySelectorContainer {
+            position: relative;
+            margin: 0;
+        }
+        .vtex-numeric-stepper-container {
+            background: #fff;
+            border: 1px solid #bebebe;
+            border-radius: 5px;
+            max-width: 121px;
+            @include flexbox(flex, row, nowrap, space-between, center, center);
+            input {
+                background: none;
+                border: 0;
+                height: 55px;
+                padding: 0;
+                width: 100%;
+                text-align: center;
+            }
+            > div {
+
+                &::before {
+                    display: none;
+                }
+                &.vtex-numeric-stepper__minus-button-container {
+
+                }
+                button {
+                    background: none;
+                    width: 10px;
+                    height: 30px;
+                    border: 0;
+                    span {
+
+                    }
+                }
+            }
+        }
+    }
+    .vtex-flex-layout-0-x-flexCol--buy-col {
+        flex-direction: row;
+        @include flexbox(flex, row, nowrap, flex-start, center, center);
+        max-width: 460px;
+        margin-bottom: 20px;
+        > div {
+            &:last-child {
+                width: calc(100% - 110px);
+                margin-left: 20px;
+            }
+        }
+    }
+    .b--action-primary[tabindex="0"] {
+        background:  $color-btn-sucess;
+        color: #fff;
+        border: 0;
+        height: 55px;
+        font-size: 22px;
+        font-family: $font-custom;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 10px;
+        width: 100%;
+        max-width: initial;
+        transition:  background-color 0.2s;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
+%prod_price_save {
+    .vtex-product-price-1-x-savings {
+        display: none;
+    }
+}
+%prod_price{
+    .vtex-product-price-1-x-listPrice {
+        font-size: 16px;
+        color: #4e4e4e;
+        text-decoration: line-through;
+        &::before {
+            content: "De: ";
+            display: inline-block;
+            margin-right: 5px;
+            text-decoration: line-through;
+        }
+    }
+    .vtex-product-price-1-x-sellingPrice {
+        .vtex-product-price-1-x-currencyContainer {
+            color: $color-primary;
+            font-size: 24px;
+            line-height: 24px;
+            display: block;
+            font-weight: bold;
+            .vtex-product-price-1-x-currencyCode {
+                font-size: 24px;
+            }
+            .vtex-product-price-1-x-currencyLiteral {
+                display: none;
+            }
+            &::before {
+                content: "Por: ";
+                display: inline-block;
+                font-size: 24px;
+                margin-right: 5px;
+            }
+        }
+    }
+    .vtex-product-price-1-x-installments {
+        font-size: 14px;
+        padding-bottom: 20px;
+        display: block;
+        .vtex-product-price-1-x-currencyCode {
+            text-transform: uppercase;
+        }
+    }
+}
+%prod_shipping {
+    .vtex-store-components-3-x-shippingContainer {
+        margin-top: 0;
+        position: relative;
+        padding: 2px;
+        max-width: 260px;
+        border: 1px solid #ccc;
+        margin-top: 35px;
+        margin-bottom: 14px;
+        border-radius: 5px;
+        @include flexbox(flex, row, nowrap, flex-start, center, center);
+        label.vtex-input > span{
+            position: absolute;
+            top: -19px;
+            left: 0;
+            font-size: 0;
+            &::before {
+                font-size: 14px;
+                content: "Calcule o valor de entrega";
+            }
+        }
+        .vtex-address-form__postalCode {
+            .vtex-input {
+
+                .vtex-input__label {
+
+                    &::before {
+
+                    }
+                }
+            }
+            .vtex-input-prefix__group {
+                border: 0;
+                border-radius: 0;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                width: auto;
+                text-align: center;
+                background: #fff;
+                display: block;
+                position: relative;
+                background: url($url-assets+"ico_ship.png") no-repeat 3px 10px;
+                input {
+                    text-align: left;
+                    padding: 0 0 0 48px;
+                    color: #666;
+                    font-size: 15px;
+                    background: none;
+                    width: 166px;
+                    height: 40px;
+
+                }
+            }
+            .pt4.flex-none {
+                display: none;
+            }
+        }
+        .vtex-button {
+            width: 85px;
+            border-radius: 10px;
+            background:  #656565;
+            color: #fff;
+            border: 0;
+            height: 34px;
+            font-size: 0;
+            text-transform: normal;
+           &.b--action-primary {
+               color: #fff;
+           }
+            .vtex-button__label {
+                @include flexbox(flex, row, wrap, center, center, center);
+                &::before {
+                    content: "Calcular";
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .vtex-flex-layout-0-x-flexCol--col-ship {
+        @include flexbox(flex, row, wrap, flex-start, center, center);
+        .vtex-flex-layout-0-x-flexColChild--col-ship {
+            @include flexbox(flex, row, wrap, center, center, center);
+        }
+    }
+    .c-danger.lh-title {
+        position: absolute;
+        top: 39px;
+        right: 0;
+    }
+    .vtex-rich-text-0-x-paragraph--title-ship {
+        padding-left: 20px;
+        a {
+            color: #666;
+            font-style: italic;
+            font-size: 11px;
+        }
+    }
+}
+%prod_image {
+    .vtex-store-components-3-x-productImagesContainer {
+        .vtex-store-components-3-x-swiperCaret {
+            color: $color-primary-light;
+            &.c-disabled {
+                color: #ccc;
+            }
+        }
+        .vtex-store-components-3-x-swiper-pagination {
+            > span {
+                color: #ccc;
+                width: 15px;
+                height: 15px;
+                border: 2px solid #A3A3A3;
+                &.vtex-store-components-3-x-swiperBullet--active {
+                    color: $color-primary-light;
+                }
+            }
+        }
+    }
+}
+%prod-tab {
+    .vtex-tab-layout-0-x-container--prod-tab {
+        max-width: $page-width;
+        margin: 0 auto;
+        .vtex-tab-layout-0-x-listContainer {
+            @include flexbox(flex, row, wrap, flex-start, center, center);
+            border-bottom: 2px solid #ecebf1;
+            margin-bottom: 20px;
+            div {
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            .vtex-button {
+                background: none;
+                color: #9f9f9f;
+                font-weight: bold;
+                border: 0;
+                border-bottom: 4px solid transparent;
+                border-radius: 0;
+                margin-bottom: -4px;
+                font-size: 12px;
+                @include for-desktop {
+                    font-size: 16px;
+                }
+                &.bg-action-primary {
+                    color: #4e4e4e;
+                    border-bottom: 4px solid $color-secondary;
+                }
+            }
+        }
+    }
+}
+%prod_description {
+    .vtex-store-components-3-x-productDescriptionContainer {
+        .vtex-store-components-3-x-productDescriptionTitle {
+            display: none
+        }
+    }
+    .vtex-flex-layout-0-x-flexRow--specifications {
+        h2 {
+            display: none;
+        }
+        .vtex-store-components-3-x-specificationsTableContainer {
+            margin: 0;
+        }
+    }
+}
+%prod_related {
+    .vtex-shelf-1-x-relatedProducts {
+        margin-bottom: 80px;
+        .vtex-shelf-1-x-title {
+            display: none;
+        }
+    }
+    .vtex-shelf-1-x-relatedProducts--similars {
+        .vtex-product-summary-2-x-nameContainer,
+        .vtex-slider-0-x-dotsContainer,
+        .vtex-modal-layout-0-x-triggerContainer {
+            display: none;
+        }
+        .vtex-shelf-1-x-title,
+        .vtex-slider-0-x-sliderFrame {
+            justify-content: flex-start;
+        }
+        .vtex-product-summary-2-x-container {
+            &:hover {
+                border: 0 !important;
+            }
+        }
+    }
+    .vtex-slider-0-x-dotsContainer {
+        .bg-emphasis {
+            background-color: $color-primary
+        }
+    }
+}
+.vtex-flex-layout-0-x-flexRow--product-main {
+    @extend %prod_code;
+    @extend %prod_name;
+    @extend %prod_buy-button;
+    @extend %prod_price;
+    @extend %prod_shipping;
+    @extend %prod_image;
+    @extend %prod_price_save;
+}
+.vtex-product-context-provider {
+    @extend %prod-tab;
+    @extend %prod_description;
+    @extend %prod_related;
+}
